@@ -1,0 +1,275 @@
+@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic);
+/* line 1, ../sass/_custom.scss */
+html {
+  height: 100%;
+}
+
+/* line 5, ../sass/_custom.scss */
+body {
+  height: 100%;
+  background-image: url(../images/bg.png);
+  color: #333333;
+}
+
+/* line 14, ../sass/_custom.scss */
+a:link {
+  color: #d20001;
+}
+/* line 18, ../sass/_custom.scss */
+a:visited {
+  color: #850001;
+}
+/* line 23, ../sass/_custom.scss */
+a:hover, a:focus {
+  color: #9f0001;
+}
+
+/* line 31, ../sass/_custom.scss */
+.logo img {
+  height: auto;
+}
+
+/* line 147, ../sass/configuration/_mixins.scss */
+::-moz-selection {
+  color: white;
+  background: #580000;
+}
+
+/* line 147, ../sass/configuration/_mixins.scss */
+::-webkit-selection {
+  color: white;
+  background: #580000;
+}
+
+/* line 147, ../sass/configuration/_mixins.scss */
+::selection {
+  color: white;
+  background: #580000;
+}
+
+/* line 48, ../sass/_custom.scss */
+.topbar,
+.header-wrapper {
+  background: none;
+}
+
+/* line 52, ../sass/_custom.scss */
+.header-wrapper {
+  overflow: hidden;
+}
+
+/* line 59, ../sass/_custom.scss */
+.navigation-wrapper {
+  margin-top: 20px;
+  background-color: #252525;
+}
+
+/* line 64, ../sass/_custom.scss */
+.menu-item {
+  color: white;
+}
+/* line 68, ../sass/_custom.scss */
+.menu-item:hover, .menu-item.active {
+  color: #9f0001;
+}
+
+/* line 73, ../sass/_custom.scss */
+.bottom {
+  background-color: transparent;
+}
+/* line 76, ../sass/_custom.scss */
+.bottom a {
+  color: white;
+}
+
+/* line 81, ../sass/_custom.scss */
+.footer {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0 auto;
+  padding: 10px;
+  max-width: 1180px;
+  border-bottom: 20px solid white;
+  background-color: #b4b4b4;
+}
+@media only screen and (max-width: 1210px) {
+  /* line 81, ../sass/_custom.scss */
+  .footer {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+}
+
+/* line 6, ../sass/framework/_navigation.scss */
+.topbar-menu .menu-item {
+  background-color: #333333;
+  color: white;
+}
+/* line 11, ../sass/framework/_navigation.scss */
+.topbar-menu .menu-item:hover, .topbar-menu .menu-item.active {
+  background-color: #af0000;
+  color: white;
+}
+
+/* line 27, ../sass/framework/_navigation.scss */
+.main-menu .menu-item,
+.secondary-menu .menu-item,
+.system-user-menu .menu-item {
+  color: white;
+  font-weight: 700;
+}
+/* line 32, ../sass/framework/_navigation.scss */
+.main-menu .menu-item:hover, .main-menu .menu-item.active,
+.secondary-menu .menu-item:hover,
+.secondary-menu .menu-item.active,
+.system-user-menu .menu-item:hover,
+.system-user-menu .menu-item.active {
+  color: #9f0001;
+}
+
+/* line 41, ../sass/framework/_navigation.scss */
+.system-user-menu .menu-item {
+  color: white;
+}
+
+/* line 56, ../sass/framework/_navigation.scss */
+.sub-menu > li a {
+  color: #d20001;
+}
+/* line 59, ../sass/framework/_navigation.scss */
+.sub-menu > li a:hover {
+  color: #9f0001;
+}
+/* line 66, ../sass/framework/_navigation.scss */
+.sub-menu li:before {
+  color: #d20001;
+}
+
+/* line 79, ../sass/framework/_navigation.scss */
+.footer .pane-title {
+  color: #d20001;
+}
+/* line 87, ../sass/framework/_navigation.scss */
+.footer .menu li:before {
+  color: #d20001;
+}
+/* line 91, ../sass/framework/_navigation.scss */
+.footer .menu li a {
+  color: #d20001;
+}
+/* line 94, ../sass/framework/_navigation.scss */
+.footer .menu li a.active {
+  color: #9f0001;
+}
+
+/* line 109, ../sass/framework/_navigation.scss */
+.action-links li {
+  color: #d20001;
+}
+/* line 112, ../sass/framework/_navigation.scss */
+.action-links li:before {
+  color: #d20001;
+}
+
+/* line 6, ../sass/module/_module.scss */
+.search .form-text, .search-field-in-content .form-text, .user .form-text {
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  -ms-border-radius: 0;
+  -o-border-radius: 0;
+  border-radius: 0;
+}
+/* line 10, ../sass/module/_module.scss */
+.search .form-submit, .search-field-in-content .form-submit, .user .form-submit {
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  -ms-border-radius: 0;
+  -o-border-radius: 0;
+  border-radius: 0;
+}
+
+/* line 2, ../sass/module/_labels.scss */
+.label, .news-list .news-label, .super-heading .field-name-field-ding-news-library .field-item, .subjects .subject {
+  background-color: #af0000;
+  color: white;
+}
+/* line 10, ../sass/module/_labels.scss */
+.label a:link, .news-list .news-label a:link, .super-heading .field-name-field-ding-news-library .field-item a:link, .subjects .subject a:link, .label a:visited, .news-list .news-label a:visited, .super-heading .field-name-field-ding-news-library .field-item a:visited, .subjects .subject a:visited, .label a:hover, .news-list .news-label a:hover, .super-heading .field-name-field-ding-news-library .field-item a:hover, .subjects .subject a:hover {
+  color: white;
+}
+/* line 17, ../sass/module/_labels.scss */
+.label:link, .news-list .news-label:link, .super-heading .field-name-field-ding-news-library .field-item:link, .subjects .subject:link, .label:visited, .news-list .news-label:visited, .super-heading .field-name-field-ding-news-library .field-item:visited, .subjects .subject:visited {
+  color: white;
+}
+/* line 21, ../sass/module/_labels.scss */
+.label:hover, .news-list .news-label:hover, .super-heading .field-name-field-ding-news-library .field-item:hover, .subjects .subject:hover {
+  background-color: #7c0000;
+  color: #e6e6e6;
+}
+
+/* line 4, ../sass/module/_search.scss */
+.search-overlay--inner {
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  -ms-border-radius: 0;
+  -o-border-radius: 0;
+  border-radius: 0;
+}
+
+/* line 44, ../sass/module/_search.scss */
+.pane-ding-facetbrowser a:visited, .pane-search-backends a:visited {
+  color: #d20001;
+}
+
+/* line 58, ../sass/module/_search.scss */
+#autocomplete {
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  -ms-border-radius: 0;
+  -o-border-radius: 0;
+  border-radius: 0;
+}
+/* line 62, ../sass/module/_search.scss */
+#autocomplete li a {
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  -ms-border-radius: 0;
+  -o-border-radius: 0;
+  border-radius: 0;
+}
+
+/* line 78, ../sass/module/_search.scss */
+.pane-ting-object .collapsible .field-group-format-title:before,
+.pane-ting-object .ding-periodical-fold:before {
+  color: #d20001;
+}
+
+/* line 4, ../sass/module/_user.scss */
+.header-wrapper .user {
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+/* line 13, ../sass/module/_user.scss */
+.user .form-item-name {
+  padding-left: 0;
+}
+/* line 16, ../sass/module/_user.scss */
+.user .form-item-name i {
+  left: 14px;
+}
+/* line 21, ../sass/module/_user.scss */
+.user .form-item-pass {
+  padding-right: 0;
+}
+
+/* line 4, ../sass/module/_carousel.scss */
+.rs-carousel {
+  background-color: #af0000;
+}
+
+/* line 8, ../sass/module/_carousel.scss */
+.rs-carousel-inner {
+  background-color: #333333;
+}
