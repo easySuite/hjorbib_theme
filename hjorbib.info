@@ -11,7 +11,6 @@ stylesheets[all][] = css/styles.css
 
 scripts[] = js/hjorbib.js
 
-
 ;--------------- R E G I O N S --------------------
 
 regions[header]            = Header

@@ -245,21 +245,29 @@ a:hover, a:focus {
   color: #d20001;
 }
 
-/* line 4, ../sass/module/_user.scss */
+/* line 5, ../sass/module/_user.scss */
 .header-wrapper .user {
   padding-right: 10px;
   padding-left: 10px;
 }
 
-/* line 13, ../sass/module/_user.scss */
+@media only screen and (max-width: 480px) {
+  /* line 16, ../sass/module/_user.scss */
+  .user .form-item-name,
+  .user .form-item-pass {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+/* line 22, ../sass/module/_user.scss */
 .user .form-item-name {
   padding-left: 0;
 }
-/* line 16, ../sass/module/_user.scss */
+/* line 25, ../sass/module/_user.scss */
 .user .form-item-name i {
   left: 14px;
 }
-/* line 21, ../sass/module/_user.scss */
+/* line 30, ../sass/module/_user.scss */
 .user .form-item-pass {
   padding-right: 0;
 }
@@ -271,5 +279,84 @@ a:hover, a:focus {
 
 /* line 8, ../sass/module/_carousel.scss */
 .rs-carousel-inner {
+  background-color: transparent;
+}
+
+/* line 12, ../sass/module/_carousel.scss */
+.rs-carousel-title {
+  color: white;
+}
+
+/* line 18, ../sass/module/_carousel.scss */
+.rs-carousel .rs-carousel-items {
+  padding: 24px 20px;
   background-color: #333333;
+}
+
+/* line 27, ../sass/module/_carousel.scss */
+.svg .rs-carousel-items .rs-carousel-item:hover:before {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  z-index: 10;
+  display: block;
+  margin-top: -21px;
+  margin-left: -21px;
+  width: 42px;
+  height: 42px;
+  background-image: url(../images/icon-plus.svg);
+  content: "";
+  pointer-events: none;
+}
+
+/* line 47, ../sass/module/_carousel.scss */
+.rs-carousel-mask li .rs-carousel-item-title {
+  display: none;
+}
+/* line 51, ../sass/module/_carousel.scss */
+.rs-carousel-mask li:hover .rs-carousel-item-title {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  display: block;
+  background-color: rgba(0, 0, 0, 0.75);
+  font-weight: 500;
+}
+
+/* line 65, ../sass/module/_carousel.scss */
+.rs-carousel-item-image {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  overflow: hidden;
+  border: 1px solid white;
+}
+
+/* line 74, ../sass/module/_carousel.scss */
+.svg .rs-carousel-action-prev,
+.svg .rs-carousel-action-next {
+  top: 50%;
+  overflow: hidden;
+  margin-top: -21px;
+  width: 42px;
+  height: 42px;
+  background: none;
+  text-indent: 100%;
+  white-space: nowrap;
+}
+
+/* line 85, ../sass/module/_carousel.scss */
+.svg .rs-carousel-action-prev {
+  left: 30px;
+  background-image: url(../images/icon-left.svg);
+  background-repeat: no-repeat;
+}
+
+/* line 91, ../sass/module/_carousel.scss */
+.svg .rs-carousel-action-next {
+  right: 30px;
+  background-image: url(../images/icon-right.svg);
+  background-repeat: no-repeat;
 }

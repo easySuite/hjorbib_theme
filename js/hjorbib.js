@@ -1,10 +1,17 @@
 (function ($) {
   'use strict';
 
-  // Drupal.behaviors.hjorbib = {
-  //   attach: function (context, settings) {
+  /**
+   * Use vector logo if supported
+   */
+  Drupal.behaviors.logo = {
+    attach: function (context, settings) {
+      var logo = $('.logo img', context);
 
-  //   }
-  // };
+      if (Modernizr.svg) {
+        logo.attr('src', settings.basePath + settings.pathToTheme + '/logo.svg');
+      }
+    }
+  };
 
 })(jQuery);
