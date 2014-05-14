@@ -9,7 +9,7 @@
       var logo = $('.logo img', context);
 
       if (Modernizr.svg) {
-        logo.attr('src', settings.basePath + settings.pathToTheme + '/logo.svg');
+        logo.attr('src', settings.basePath + settings.pathToTheme.pathToTheme + '/logo.svg');
       }
     }
   };

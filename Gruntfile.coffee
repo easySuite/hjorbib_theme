@@ -20,7 +20,7 @@ module.exports = (grunt) ->
         options:
           sassDir: 'sass'
           cssDir: 'css'
-          outputStyle: 'expanded'
+          outputStyle: 'compressed'
     jshint:
       options:
         jshintrc: '.jshintrc'
