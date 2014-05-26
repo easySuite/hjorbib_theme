@@ -73,8 +73,11 @@ a {
 .bottom {
   background-color: transparent;
 
+  &,
   a {
-    color: $white;
+    color: $black;
+    font-weight: 700;
+    font-size: 110%;
   }
 }
 
@@ -86,8 +89,10 @@ a {
   border-bottom: 20px solid $white;
   background-color: $color-primary-light;
 
+  // Media queries
+
   @include till-x-large {
-    margin-left: 10px;
     margin-right: 10px;
+    margin-left: 10px;
   }
 }
