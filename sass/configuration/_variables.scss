@@ -83,3 +83,22 @@ $breakpoint-small:                480px;
 $breakpoint-medium:               768px;
 $breakpoint-large:                940px;
 $breakpoint-x-large:              1210px;
+
+
+
+// Availability
+// ==========================================================================
+
+$availability-pending:                      #ff4e00;
+$availability-processed:                    #ff4e00;
+$availability-available:                    #00b6e9;
+$availability-reservable:                   #00b6e9;
+$availability-available-reservable:         #00b6e9;
+$availability-available-not-reservable:     #ff4e00;
+$availability-unavailable-reservable:       #ff4e00;
+$availability-unavailable-not-reservable:   #8c1145;
+
+$legend-available:                          #00b6e9;
+$legend-on-loan:                            #ff4e00;
+$legend-unavailable:                        #8c1145;
+$legend-unreservable:                       #ff4e00;

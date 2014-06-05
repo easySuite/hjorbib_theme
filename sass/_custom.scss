@@ -28,8 +28,9 @@ a {
 
 // Logo
 
-.logo img {
-  height: auto;
+.logo {
+  max-width: 390px;
+  max-height: 95px;
 }
 
 
@@ -49,6 +50,10 @@ a {
   background: none;
 }
 
+.site-header {
+  padding-top: 20px;
+}
+
 .header-wrapper {
   overflow: hidden;
 }
@@ -57,7 +62,7 @@ a {
 // Navigation
 
 .navigation-wrapper {
-  margin-top: 20px;
+  margin-top: 15px;
   background-color: $navigation-wrapper;
 }
 
