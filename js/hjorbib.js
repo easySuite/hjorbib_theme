@@ -6,7 +6,6 @@
    */
   Drupal.behaviors.logo = {
     attach: function (context, settings) {
-      console.log(settings.pathToTheme.pathToTheme);
       var logo = $('.logo', context),
         pathToTheme = settings.basePath + settings.pathToTheme.pathToTheme;
 
