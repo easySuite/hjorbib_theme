@@ -109,6 +109,13 @@ $carousel-tab-background-color:            #252525;
    ========================================================================== */
 
 .rs-carousel-tabs {
+  @include small-medium {
+    padding: 0;
+  }
+
+  .rs-carousel-select-tabs {
+    @include border-radius(0);
+  }
 
   .rs-carousel-list-tabs {
 
