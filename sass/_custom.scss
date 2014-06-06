@@ -36,6 +36,10 @@ a {
     display: block;
     width: 100%;
   }
+
+  object {
+    pointer-events: none;
+  }
 }
 
 
