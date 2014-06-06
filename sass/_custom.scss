@@ -31,6 +31,11 @@ a {
 .logo {
   max-width: 390px;
   max-height: 95px;
+
+  a {
+    display: block;
+    width: 100%;
+  }
 }
 
 

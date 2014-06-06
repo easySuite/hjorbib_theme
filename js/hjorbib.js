@@ -6,10 +6,12 @@
    */
   Drupal.behaviors.logo = {
     attach: function (context, settings) {
-      var logo = $('.logo img', context);
+      console.log(settings.pathToTheme.pathToTheme);
+      var logo = $('.logo', context),
+        pathToTheme = settings.basePath + settings.pathToTheme.pathToTheme;
 
       if (Modernizr.svg) {
-        logo.attr('src', settings.basePath + settings.pathToTheme.pathToTheme + '/logo.svg');
+        logo.find('a').html('<object data="' + pathToTheme + '/images/logo.svg" type="image/svg+xml"><img src="' + pathToTheme + '/logo.png"/></object>');
       }
     }
   };

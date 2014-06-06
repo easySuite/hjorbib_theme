@@ -39,6 +39,12 @@ module.exports = (grunt) ->
           src: ['**/*.{png,jpg,gif}']
           dest: 'images/'
         ]
+    svginject:
+      all :
+        files:
+          'js/SVGinject.js': [
+            'images/logo.svg'
+          ]
     watch:
       gruntfile:
         files: ['Gruntfile.coffee']
@@ -62,5 +68,8 @@ module.exports = (grunt) ->
       'watch'
     ])
 
-  grunt.registerTask('compress', ['imagemin'])
+  grunt.registerTask('compress', [
+    'imagemin'
+    'svginject'
+    ])
   return
