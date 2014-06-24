@@ -110,3 +110,9 @@ a {
     margin-left: 10px;
   }
 }
+
+// Hiding subjects from object page
+
+.page-ting-object .field-name-ting-details-subjects {
+  display: none;
+}
