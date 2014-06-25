@@ -2,6 +2,36 @@
  * Availability
  */
 
+
+/* Ting object buttons.
+   ========================================================================== */
+
+.unavailable,
+.unavailable:link,
+.unavailable:visited,
+.unavailable:hover,
+.unavailable:active {
+  color: darken($availability-reservable, 10%);
+}
+
+.field-name-ding-entity-buttons .reserve-button,
+.ding-periodical-issues .reserve-button {
+  display: none;
+
+  &.reservable {
+    display: inline-block;
+    margin-left: 10px;
+  }
+
+  &.available {
+    @extend %button-action;
+  }
+
+  &.unavailable.reservable {
+    @include create-gradient-button($white, $availability-reservable, darken($availability-reservable, 15%));
+  }
+}
+
 /* Search results availability
    ========================================================================== */
 
