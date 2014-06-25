@@ -84,3 +84,16 @@
     }
   }
 }
+
+
+// Search results and collection page underlined heading
+//==========================================================================
+
+.search-result .heading a,
+.pane-ting-collection .ting-collection-inner-wrapper h2 a {
+  text-decoration: underline;
+
+  &:hover {
+    text-decoration: none;
+  }
+}
