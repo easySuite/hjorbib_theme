@@ -97,3 +97,16 @@
     text-decoration: none;
   }
 }
+
+
+// Search spinner
+//==========================================================================
+
+.search-overlay--inner {
+  background-color: rgba($black, 0.8);
+
+  // Cancel button
+  .cancel a {
+    color: $link-color;
+  }
+}
