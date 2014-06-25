@@ -14,6 +14,9 @@
   @extend %search-user-header;
 }
 
+.button-see-online {
+  @extend %button-action;
+}
 
 
 // Search in content
