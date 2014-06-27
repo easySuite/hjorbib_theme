@@ -53,4 +53,21 @@
     }
   };
 
+   /*
+   * Automatic scroll down to content.
+   */
+  Drupal.behaviors.scrollToContent = {
+    attach: function (context) {
+      $(function () {
+        // Run code only for paths start with 'search/ting'.
+        if (document.location.pathname.indexOf('/search/ting/') === 0) {
+
+          $('html, body', context).animate({
+            scrollTop: $('.layout-wrapper', context).offset().top
+          }, 'slow');
+        }
+      });
+    }
+  };
+
 })(jQuery);
