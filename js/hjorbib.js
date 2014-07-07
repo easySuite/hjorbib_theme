@@ -17,28 +17,6 @@
     }
   };
 
-  /**
-   * History back.
-   */
-  Drupal.behaviors.historyBack = {
-    attach: function (context) {
-      $(function () {
-        if (document.location.pathname.indexOf('/ting/object/') === 0) {
-          $('<a>', {
-            'class': 'step-back',
-            'text': Drupal.t('Back'),
-            'href': '#'
-          }).prependTo($('.primary-content', context));
-
-          $('.step-back').click(function (e) {
-            e.preventDefault();
-            window.history.back();
-          });
-        }
-      });
-    }
-  };
-
    /*
    * Automatic scroll down to content.
    */
