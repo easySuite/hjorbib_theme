@@ -21,9 +21,6 @@
   &.reservable {
     display: inline-block;
     margin-left: 10px;
-  }
-
-  &.available {
     @extend %button-action;
   }
 
