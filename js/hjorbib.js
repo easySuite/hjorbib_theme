@@ -6,14 +6,12 @@
    */
   Drupal.behaviors.expandHoldings = {
     attach: function (context) {
-      $(function () {
-        var objectPage = $('.page-ting-object', context),
+      var objectPage = $('.page-ting-object', context),
           holdingsSection = objectPage.find('.group-holdings-available').find('.field-group-format-title');
 
-        if (objectPage.length !== 0) {
-          holdingsSection.trigger('click');
-        }
-      });
+      if (objectPage.length !== 0) {
+        holdingsSection.trigger('click');
+      }
     }
   };
 
@@ -22,15 +20,13 @@
    */
   Drupal.behaviors.scrollToContent = {
     attach: function (context) {
-      $(function () {
-        // Run code only for paths start with 'search/ting'.
-        if (document.location.pathname.indexOf('/search/ting/') === 0) {
+      // Run code only for paths start with 'search/ting'.
+      if (document.location.pathname.indexOf('/search/ting/') === 0) {
 
-          $('html, body', context).animate({
-            scrollTop: $('.layout-wrapper', context).offset().top
-          }, 'slow');
-        }
-      });
+        $('html, body', context).animate({
+          scrollTop: $('.layout-wrapper').offset().top
+        }, 'slow');
+      }
     }
   };
 
