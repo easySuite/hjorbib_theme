@@ -22,10 +22,11 @@
     attach: function (context) {
       // Run code only for paths start with 'search/ting'.
       if (document.location.pathname.indexOf('/search/ting/') === 0) {
-
-        $('html, body', context).animate({
-          scrollTop: $('.layout-wrapper').offset().top
-        }, 'slow');
+        $(window).load(function() {
+          $('html, body', context).animate({
+            scrollTop: $('.layout-wrapper').offset().top
+          }, 'slow');
+        });
       }
     }
   };
