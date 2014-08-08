@@ -11,7 +11,7 @@
 .unavailable:visited,
 .unavailable:hover,
 .unavailable:active {
-  color: darken($availability-reservable, 10%);
+  color: $text-color;
 }
 
 .field-name-ding-entity-buttons .reserve-button,
@@ -25,7 +25,7 @@
   }
 
   &.unavailable.reservable {
-    @include create-gradient-button($white, $availability-reservable, darken($availability-reservable, 15%));
+    @include create-gradient-button($text-color, $button-action-color, $button-action-bg, rgba($button-action-bg, 1%));
   }
 }
 
@@ -34,36 +34,15 @@
 
 .page-search .availability {
 
-  &.pending {
-    background-color: $availability-pending;
-  }
-
-  &.availability.processed {
-    background-color: $availability-processed;
-  }
-
-  &.availability.available {
-    background-color: $availability-available;
-  }
-
-  &.availability.reservable {
-    background-color: $availability-reservable;
-  }
-
-  &.availability.available.reservable {
-    background-color: $availability-available-reservable;
-  }
-
-  &.availability.available.not-reservable {
-    background-color: $availability-available-not-reservable;
-  }
-
-  &.availability.unavailable.reservable {
-    background-color: $availability-reservable;
-  }
-
+  &.pending,
+  &.availability.processed,
+  &.availability.available,
+  &.availability.reservable,
+  &.availability.available.reservable,
+  &.availability.unavailable.reservable,
+  &.availability.available.not-reservable,
   &.availability.unavailable.not-reservable {
-    background-color: $availability-unavailable-not-reservable;
+    @include create-gradient-button($text-color, $button-action-color, $button-action-bg, rgba($button-action-bg, 1%));
   }
 }
 
@@ -72,19 +51,14 @@
 
 .availability-legend {
 
-  .available {
-    background-color: $legend-available;
-  }
-
-  .on-loan {
-    background-color: $legend-on-loan;
-  }
-
-  .unavailable {
-    background-color: $legend-unavailable;
-  }
-
+  .on-loan,
+  .available,
+  .unavailable,
   .unreservable {
-    background-color: $legend-unreservable;
+    @include create-gradient-button($text-color, $button-action-color, $button-action-bg, rgba($button-action-bg, 1%));
+
+    span {
+      color: $text-color;
+    }
   }
 }
