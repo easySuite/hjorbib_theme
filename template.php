@@ -9,10 +9,24 @@
  * Implements hook_preprocess_html().
  */
 function hjorbib_preprocess_html(&$vars) {
-  // Add theme path to global variable
-  drupal_add_js(array('pathToTheme' => array('pathToTheme' => path_to_theme())), 'setting');
+  // Add theme path to global variable.
+  drupal_add_js(
+    array(
+     'pathToTheme' => '/' . drupal_get_path('theme', 'hjorbib'),
+     'every_page' => TRUE,
+     'scope' => 'header',
+     'weight' => -19.95,
+    ), 'setting'
+  );
 
-  // Add header link tag for apple-touch-icon
+  // Add Webtrends.
+  drupal_add_js(drupal_get_path('theme', 'hjorbib') . '/js/webtrends.load.js',
+    array(
+      'scope' => 'footer',
+    )
+  );
+
+  // Add header link tag for apple-touch-icon.
   $apple_touch_icon = array(
     '#tag' => 'link',
     '#attributes' => array(
