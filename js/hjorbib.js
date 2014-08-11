@@ -2,15 +2,15 @@
   'use strict';
 
   /**
-   * Expanded holdings section by default on object page.
+   * Expanded holdings and issues section by default on object page.
    */
-  Drupal.behaviors.expandHoldings = {
+  Drupal.behaviors.expandSection = {
     attach: function (context) {
       var objectPage = $('.page-ting-object', context),
-          holdingsSection = objectPage.find('.group-holdings-available').find('.field-group-format-title');
+          expandedSection = objectPage.find('.group-holdings-available, .group-periodical-issues').find('.field-group-format-title');
 
       if (objectPage.length !== 0) {
-        holdingsSection.trigger('click');
+        expandedSection.trigger('click');
       }
     }
   };
