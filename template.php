@@ -8,11 +8,11 @@
 /**
  * Implements hook_preprocess_html().
  */
-function hjorbib_preprocess_html(&$vars) {
+function hjorbib_theme_preprocess_html(&$vars) {
   // Add theme path to global variable.
   drupal_add_js(
     array(
-     'pathToTheme' => '/' . drupal_get_path('theme', 'hjorbib'),
+     'pathToTheme' => '/' . drupal_get_path('theme', 'hjorbib_theme'),
      'every_page' => TRUE,
      'scope' => 'header',
      'weight' => -19.95,
@@ -20,7 +20,7 @@ function hjorbib_preprocess_html(&$vars) {
   );
 
   // Add Webtrends.
-  drupal_add_js(drupal_get_path('theme', 'hjorbib') . '/js/webtrends.load.js',
+  drupal_add_js(drupal_get_path('theme', 'hjorbib_theme') . '/js/webtrends.load.js',
     array(
       'scope' => 'footer',
     )
