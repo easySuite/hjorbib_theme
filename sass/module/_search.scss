@@ -55,17 +55,7 @@
 
 .pane-search-backends {
   @extend .pane-ding-facetbrowser;
-  display: none;
-}
-
-.facet-browser-toggle {
-  display: none;
-
-  // Media small-medium
-
-  @include small-medium() {
-    display: none;
-  }
+  display: none !important;
 }
 
 
