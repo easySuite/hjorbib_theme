@@ -15,6 +15,14 @@
     @media only screen and (max-height: $breakpoint-low) and (max-width: $breakpoint-medium) { @content; }
   }
 
+  @else if $media == till-medium {
+    @media only screen and (max-width: $breakpoint-medium) { @content; }
+  }
+
+  @else if $media == from-medium {
+    @media only screen and (min-width: $breakpoint-medium + 1) { @content; }
+  }
+
 	@else if $media == medium {
 		@media only screen and (min-width: $breakpoint-small + 1) and (max-width: $breakpoint-medium) { @content; }
 	}
@@ -58,6 +66,14 @@
 
 @mixin medium {
   @include respond-to(medium) { @content; }
+}
+
+@mixin till-medium {
+  @include respond-to(till-medium) { @content; }
+}
+
+@mixin from-medium {
+  @include respond-to(from-medium) { @content; }
 }
 
 @mixin medium-large {
