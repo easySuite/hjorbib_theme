@@ -4,8 +4,19 @@ html {
 
 body {
   height: 100%;
-  background-image: url(../images/bg.png);
   color: $font-color-primary;
+
+  // Media till-medium
+
+  @include till-medium() {
+    background-color: #b4b4b4;
+  }
+
+  // Media from-medium
+
+  @include from-medium() {
+    background-image: url('../images/bg.png');
+  }
 }
 
 // Links color
@@ -29,8 +40,8 @@ a {
 // Logo
 
 .logo {
-  max-width: 390px;
-  max-height: 95px;
+  margin-bottom: 0;
+  min-height: 44px;
 
   a {
     display: block;
