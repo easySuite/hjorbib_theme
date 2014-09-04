@@ -14,6 +14,7 @@
   color: $text-color;
 }
 
+.subjects .subject,
 .field-name-ding-entity-buttons .reserve-button,
 .ding-periodical-issues .reserve-button {
   &,
@@ -21,8 +22,19 @@
     @extend %button-action;
     @include create-gradient-button($text-color, $button-action-color, $button-action-bg, rgba($button-action-bg, 1%));
     display: inline-block;
+  }
+}
+
+.field-name-ding-entity-buttons .reserve-button,
+.ding-periodical-issues .reserve-button {
+  &,
+  &.unavailable.reservable {
     margin-left: 10px;
   }
+}
+
+.subjects .subject {
+  margin-right: 10px;
 }
 
 /* Search results availability
