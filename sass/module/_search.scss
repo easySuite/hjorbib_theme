@@ -22,6 +22,11 @@
   @extend %button-action;
 }
 
+.subjects {
+  .subject {
+    @extend .label;
+  }
+}
 
 // Search in content
 //==========================================================================
