@@ -35,7 +35,7 @@
 /* Search results availability
    ========================================================================== */
 
-.availability {
+.page-search .availability {
 
   &.pending,
   &.availability.processed,
@@ -46,6 +46,22 @@
   &.availability.available.not-reservable,
   &.availability.unavailable.not-reservable {
     @include create-gradient-button($text-color, $button-action-color, $button-action-bg, rgba($button-action-bg, 1%));
+  }
+}
+
+.page-ting-object .availability,
+.page-ting-collection .availability {
+
+  &.pending,
+  &.availability.processed,
+  &.availability.available,
+  &.availability.reservable,
+  &.availability.available.reservable,
+  &.availability.unavailable.reservable,
+  &.availability.available.not-reservable,
+  &.availability.unavailable.not-reservable {
+    background-color: transparent;
+    color: $black;
   }
 }
 
