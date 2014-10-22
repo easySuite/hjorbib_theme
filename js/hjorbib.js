@@ -19,10 +19,15 @@
    * Automatic scroll down to content.
    */
   $(window).load(function() {
+    // Search result page.
     if (document.location.pathname.indexOf('/search/ting/') === 0) {
-      $('html, body').animate({
-        scrollTop: $('.layout-wrapper').offset().top
-      }, 'slow');
+
+      // Scroll to search results container.
+      if (window.location.hash === '') {
+        $('html, body').animate({
+          scrollTop: $('.layout-wrapper').offset().top
+        }, 'slow');
+      }
     }
   });
 
