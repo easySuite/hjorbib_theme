@@ -23,7 +23,7 @@
     if (document.location.pathname.indexOf('/search/ting/') === 0) {
 
       // If back button was pressed.
-      if (window.location.hash !== 0) {
+      if (window.location.hash !== '') {
         // id from previous page.
         var storedId = decodeURIComponent(window.location.href).match(/\d+-\w+:\d+/)[0];
 
