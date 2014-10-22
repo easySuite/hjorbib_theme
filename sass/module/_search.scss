@@ -107,3 +107,13 @@
     color: $link-color;
   }
 }
+
+
+
+// Search results more info button
+//==========================================================================
+
+.more-info-wrapper a {
+  @extend %button;
+  @extend %button-action;
+}
