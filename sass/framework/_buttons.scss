@@ -32,7 +32,6 @@ $button-danger-color:             $black;
 %button {
   @include border-radius($button-border-radius);
 
-  display: inline-block;
   font-size: 100%;
   padding: $button-padding;
   position: relative;
