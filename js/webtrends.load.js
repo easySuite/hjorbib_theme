@@ -4,7 +4,7 @@
 // Created: 2014.03.27
 window.webtrendsAsyncInit=function(){
     var dcs=new Webtrends.dcs().init({
-        dcsid:"dcs222ou4l8624bgomf3tkr81_7c8u",
+        dcsid:"dcs222utmirzbrdpbtlhscel5_6n2c",
         domain:"statse.webtrendslive.com",
         timezone:1,
         i18n:true,
@@ -13,8 +13,8 @@ window.webtrendsAsyncInit=function(){
         offsite:true,
         download:true,
         downloadtypes:"avi,csv,doc,docx,exe,gzip,mp3,mp4,pdf,ppt,pptx,rar,txt,wav,xls,xlsx,zip",
-        onsitedoms:"www.bibliotekerne.hjoerring.dk",
-        fpcdom:".bibliotekerne.hjoerring.dk",
+        onsitedoms:"opac.hjbib.dk",
+        fpcdom:".opac.hjbib.dk",
         plugins:{
             hm:{src:"//s.webtrends.com/js/webtrends.hm.js"},
             facebook:{src:"//s.webtrends.com/js/webtrends.fb.js"},
