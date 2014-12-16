@@ -11,21 +11,15 @@
 .unavailable:visited,
 .unavailable:hover,
 .unavailable:active {
-  color: $text-color;
+  color: $black;
 }
 
 .field-name-ding-entity-buttons .reserve-button,
 .ding-periodical-issues .reserve-button {
-  display: none;
-
-  &.reservable {
-    display: inline-block;
-    margin-left: 10px;
-    @extend %button-action;
-  }
-
+  &,
   &.unavailable.reservable {
-    @include create-gradient-button($text-color, $button-action-color, $button-action-bg, rgba($button-action-bg, 1%));
+    @extend %button-action;
+    @include create-gradient-button($button-theme-color, $button-action-bg, darken($button-action-bg, 15%));
   }
 }
 
@@ -42,7 +36,23 @@
   &.availability.unavailable.reservable,
   &.availability.available.not-reservable,
   &.availability.unavailable.not-reservable {
-    @include create-gradient-button($text-color, $button-action-color, $button-action-bg, rgba($button-action-bg, 1%));
+    @include create-gradient-button($button-theme-color, $button-action-bg, darken($button-action-bg, 15%));
+  }
+}
+
+.page-ting-object .availability,
+.page-ting-collection .availability {
+
+  &.pending,
+  &.availability.processed,
+  &.availability.available,
+  &.availability.reservable,
+  &.availability.available.reservable,
+  &.availability.unavailable.reservable,
+  &.availability.available.not-reservable,
+  &.availability.unavailable.not-reservable {
+    background-color: transparent;
+    color: $black;
   }
 }
 
@@ -55,10 +65,12 @@
   .available,
   .unavailable,
   .unreservable {
-    @include create-gradient-button($text-color, $button-action-color, $button-action-bg, rgba($button-action-bg, 1%));
+
+    @include create-gradient-button($button-theme-color, $button-action-bg, darken($button-action-bg, 15%));
+    cursor: default;
 
     span {
-      color: $text-color;
+      color: $black;
     }
   }
 }

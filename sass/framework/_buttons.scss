@@ -16,15 +16,13 @@ $button-padding:                  8px 14px;
 $button-default-bg:               #444;
 $button-default-color:            #fff;
 $button-theme-bg:                 #00b7e7;
-$button-theme-color:              #fff;
-$button-action-bg:                #d4d4d4;
-$button-action-color:             #fff;
+$button-theme-color:              $black;
+$button-action-bg:                #f7f7f7;
+$button-action-color:             $black;
 $button-warning-bg:               #f6d346;
 $button-warning-color:            #000;
 $button-danger-bg:                #bf3600;
-$button-danger-color:             #fff;
-
-$text-color:                      #333333;
+$button-danger-color:             $black;
 
 
 
@@ -34,7 +32,6 @@ $text-color:                      #333333;
 %button {
   @include border-radius($button-border-radius);
 
-  display: inline-block;
   font-size: 100%;
   padding: $button-padding;
   position: relative;
@@ -83,6 +80,8 @@ $text-color:                      #333333;
     }
   }
 
+  &:link,
+  &:visited,
   &:focus,
   &:hover,
   &:active {
@@ -93,11 +92,33 @@ $text-color:                      #333333;
 }
 
 
-/* Default button */
+/* Default button, we dont use gradiant mixin sin since it's part of color module */
 .button,
 a.button,
 %button-default {
-  @include create-gradient-button($button-default-color, $button-default-bg, darken($button-default-bg, 15%));
+  background-color: $button-default-background;
+  border: 1px;
+  color: $button-default-text-color;
+  line-height: 100%;
+  padding: 8px 14px;
+
+  @include border-radius(8px);
+  @include background-image(linear-gradient($button-default-background, $button-default-background-gradient));
+
+  &:link,
+  &:visited,
+  &:focus,
+  &:active {
+    color: $button-default-text-color;
+    text-decoration: none;
+    background-image: none;
+    background-color: $button-default-background;
+  }
+
+  &:hover {
+    background-color: $button-default-color-hover;
+    background-image: none;
+  }
 }
 
 /* Theme button */
@@ -107,7 +128,7 @@ a.button,
 
 /* Action button */
 %button-action {
-  @include create-gradient-button($text-color, $button-action-color, $button-action-bg, rgba($button-action-bg, 1%));
+  @include create-gradient-button($button-action-color, $button-action-bg, darken($button-action-bg, 15%));
 }
 
 /* Warning button */

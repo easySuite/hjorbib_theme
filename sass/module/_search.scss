@@ -22,6 +22,11 @@
   @extend %button-action;
 }
 
+.subjects {
+  .subject {
+    @extend .label;
+  }
+}
 
 // Search in content
 //==========================================================================
@@ -29,18 +34,6 @@
 .search-field-in-content {
   @extend .search;
 }
-
-
-
-// Search results list
-//==========================================================================
-
-.subjects {
-  .subject {
-    @extend .label;
-  }
-}
-
 
 
 // Facet browser styling
@@ -55,17 +48,7 @@
 
 .pane-search-backends {
   @extend .pane-ding-facetbrowser;
-  display: none;
-}
-
-.facet-browser-toggle {
-  display: none;
-
-  // Media small-medium
-
-  @include small-medium() {
-    display: none;
-  }
+  display: none !important;
 }
 
 
@@ -123,4 +106,14 @@
   .cancel a {
     color: $link-color;
   }
+}
+
+
+
+// Search results more info button
+//==========================================================================
+
+.more-info-wrapper a {
+  @extend %button;
+  @extend %button-action;
 }
