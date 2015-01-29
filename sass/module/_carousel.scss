@@ -58,6 +58,27 @@ $carousel-tab-background-color:            #252525;
     display: none;
   }
 
+  .rs-carousel-item-type {
+    @include box-sizing(border-box);
+
+    background-color: transparentize($black, .25);
+    bottom: 0;
+    color: $white;
+    left: 0;
+    padding-top: 10px;
+    padding-right: 15px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    position: absolute;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    &:hover {
+      background-color: $black;
+      text-decoration: none;
+    }
+  }
+
   &:hover .rs-carousel-item-title {
     position: absolute;
     top: 0;
