@@ -2365,16 +2365,19 @@ ul.icons li [class*=" icon-"] {
   padding-bottom: 10px;
   padding-left: 15px;
   position: absolute;
+  right: initial;
   text-overflow: ellipsis;
+  top: initial;
   white-space: nowrap;
+  width: 100%;
   overflow: hidden;
 }
-/* line 76, ../sass/module/_carousel.scss */
+/* line 79, ../sass/module/_carousel.scss */
 .rs-carousel-mask li .rs-carousel-item-type:hover {
   background-color: #000;
   text-decoration: none;
 }
-/* line 82, ../sass/module/_carousel.scss */
+/* line 85, ../sass/module/_carousel.scss */
 .rs-carousel-mask li:hover .rs-carousel-item-title {
   position: absolute;
   top: 0;
@@ -2386,7 +2389,7 @@ ul.icons li [class*=" icon-"] {
   font-weight: 500;
 }
 
-/* line 96, ../sass/module/_carousel.scss */
+/* line 99, ../sass/module/_carousel.scss */
 .rs-carousel-item-image {
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
@@ -2395,7 +2398,7 @@ ul.icons li [class*=" icon-"] {
   border: 1px solid #fff;
 }
 
-/* line 104, ../sass/module/_carousel.scss */
+/* line 107, ../sass/module/_carousel.scss */
 .svg .rs-carousel-action-prev,
 .svg .rs-carousel-action-next {
   top: 50%;
@@ -2408,14 +2411,14 @@ ul.icons li [class*=" icon-"] {
   white-space: nowrap;
 }
 
-/* line 116, ../sass/module/_carousel.scss */
+/* line 119, ../sass/module/_carousel.scss */
 .svg .rs-carousel-action-prev {
   left: 30px;
   background-image: url(../images/icon-left.svg);
   background-repeat: no-repeat;
 }
 
-/* line 122, ../sass/module/_carousel.scss */
+/* line 125, ../sass/module/_carousel.scss */
 .svg .rs-carousel-action-next {
   right: 30px;
   background-image: url(../images/icon-right.svg);
@@ -2425,31 +2428,31 @@ ul.icons li [class*=" icon-"] {
 /* Carousel tabs
    ========================================================================== */
 @media only screen and (max-width: 768px) {
-  /* line 132, ../sass/module/_carousel.scss */
+  /* line 135, ../sass/module/_carousel.scss */
   .rs-carousel-tabs {
     padding: 0;
   }
 }
-/* line 137, ../sass/module/_carousel.scss */
+/* line 140, ../sass/module/_carousel.scss */
 .rs-carousel-tabs .rs-carousel-select-tabs {
   -webkit-border-radius: 0;
   -moz-border-radius: 0;
   border-radius: 0;
 }
-/* line 145, ../sass/module/_carousel.scss */
+/* line 148, ../sass/module/_carousel.scss */
 .rs-carousel-tabs .rs-carousel-list-tabs .rs-carousel-item a {
   margin-right: 0;
   background-color: #252525;
 }
-/* line 149, ../sass/module/_carousel.scss */
+/* line 152, ../sass/module/_carousel.scss */
 .rs-carousel-tabs .rs-carousel-list-tabs .rs-carousel-item a:hover {
   background-color: #8b0000;
 }
-/* line 155, ../sass/module/_carousel.scss */
+/* line 158, ../sass/module/_carousel.scss */
 .rs-carousel-tabs .rs-carousel-list-tabs .rs-carousel-item.active a {
   background-color: #8b0000;
 }
-/* line 158, ../sass/module/_carousel.scss */
+/* line 161, ../sass/module/_carousel.scss */
 .rs-carousel-tabs .rs-carousel-list-tabs .rs-carousel-item.active a:before {
   border-bottom-color: #8b0000;
 }
