@@ -243,7 +243,10 @@ a:hover, a:focus {
 /* line 32, ../sass/framework/_buttons.scss */
 .button-see-online, .bookmark-button, .field-name-ding-entity-buttons .reserve-button, .field-name-ding-entity-buttons .reserve-button.unavailable.reservable,
 .ding-periodical-issues .reserve-button,
-.ding-periodical-issues .reserve-button.unavailable.reservable, .page-search .availability.pending, .page-search .availability.processed, .page-search .availability.available, .page-search .availability.reservable, .page-search .availability.available.reservable, .page-search .availability.unavailable.reservable, .page-search .availability.available.not-reservable, .page-search .availability.unavailable.not-reservable, .availability-legend .on-loan,
+.ding-periodical-issues .reserve-button.unavailable.reservable, .ding-item-list-item .item-details .reserve-button:link,
+.ding-item-list-item .item-details .reserve-button:hover,
+.alma-item-list .item-details .reserve-button:link,
+.alma-item-list .item-details .reserve-button:link:hover, .page-search .availability.pending, .page-search .availability.processed, .page-search .availability.available, .page-search .availability.reservable, .page-search .availability.available.reservable, .page-search .availability.unavailable.reservable, .page-search .availability.available.not-reservable, .page-search .availability.unavailable.not-reservable, .availability-legend .on-loan,
 .availability-legend .available,
 .availability-legend .unavailable,
 .availability-legend .unreservable {
@@ -262,17 +265,23 @@ a:hover, a:focus {
 /* line 45, ../sass/framework/_buttons.scss */
 .button-see-online:focus, .bookmark-button:focus, .field-name-ding-entity-buttons .reserve-button:focus, .field-name-ding-entity-buttons .reserve-button.unavailable.reservable:focus,
 .ding-periodical-issues .reserve-button:focus,
-.ding-periodical-issues .reserve-button.unavailable.reservable:focus, .page-search .availability.pending:focus, .page-search .availability.processed:focus, .page-search .availability.available:focus, .page-search .availability.reservable:focus, .page-search .availability.available.reservable:focus, .page-search .availability.unavailable.reservable:focus, .page-search .availability.available.not-reservable:focus, .page-search .availability.unavailable.not-reservable:focus, .availability-legend .on-loan:focus,
+.ding-periodical-issues .reserve-button.unavailable.reservable:focus, .ding-item-list-item .item-details .reserve-button:focus:link,
+.ding-item-list-item .item-details .reserve-button:focus:hover,
+.alma-item-list .item-details .reserve-button:focus:link, .page-search .availability.pending:focus, .page-search .availability.processed:focus, .page-search .availability.available:focus, .page-search .availability.reservable:focus, .page-search .availability.available.reservable:focus, .page-search .availability.unavailable.reservable:focus, .page-search .availability.available.not-reservable:focus, .page-search .availability.unavailable.not-reservable:focus, .availability-legend .on-loan:focus,
 .availability-legend .available:focus,
 .availability-legend .unavailable:focus,
 .availability-legend .unreservable:focus, .button-see-online:hover, .bookmark-button:hover, .field-name-ding-entity-buttons .reserve-button:hover, .field-name-ding-entity-buttons .reserve-button.unavailable.reservable:hover,
 .ding-periodical-issues .reserve-button:hover,
-.ding-periodical-issues .reserve-button.unavailable.reservable:hover, .page-search .availability.pending:hover, .page-search .availability.processed:hover, .page-search .availability.available:hover, .page-search .availability.reservable:hover, .page-search .availability.available.reservable:hover, .page-search .availability.unavailable.reservable:hover, .page-search .availability.available.not-reservable:hover, .page-search .availability.unavailable.not-reservable:hover, .availability-legend .on-loan:hover,
+.ding-periodical-issues .reserve-button.unavailable.reservable:hover,
+.ding-item-list-item .item-details .reserve-button:hover,
+.alma-item-list .item-details .reserve-button:hover:link, .page-search .availability.pending:hover, .page-search .availability.processed:hover, .page-search .availability.available:hover, .page-search .availability.reservable:hover, .page-search .availability.available.reservable:hover, .page-search .availability.unavailable.reservable:hover, .page-search .availability.available.not-reservable:hover, .page-search .availability.unavailable.not-reservable:hover, .availability-legend .on-loan:hover,
 .availability-legend .available:hover,
 .availability-legend .unavailable:hover,
 .availability-legend .unreservable:hover, .button-see-online:active, .bookmark-button:active, .field-name-ding-entity-buttons .reserve-button:active, .field-name-ding-entity-buttons .reserve-button.unavailable.reservable:active,
 .ding-periodical-issues .reserve-button:active,
-.ding-periodical-issues .reserve-button.unavailable.reservable:active, .page-search .availability.pending:active, .page-search .availability.processed:active, .page-search .availability.available:active, .page-search .availability.reservable:active, .page-search .availability.available.reservable:active, .page-search .availability.unavailable.reservable:active, .page-search .availability.available.not-reservable:active, .page-search .availability.unavailable.not-reservable:active, .availability-legend .on-loan:active,
+.ding-periodical-issues .reserve-button.unavailable.reservable:active, .ding-item-list-item .item-details .reserve-button:active:link,
+.ding-item-list-item .item-details .reserve-button:active:hover,
+.alma-item-list .item-details .reserve-button:active:link, .page-search .availability.pending:active, .page-search .availability.processed:active, .page-search .availability.available:active, .page-search .availability.reservable:active, .page-search .availability.available.reservable:active, .page-search .availability.unavailable.reservable:active, .page-search .availability.available.not-reservable:active, .page-search .availability.unavailable.not-reservable:active, .availability-legend .on-loan:active,
 .availability-legend .available:active,
 .availability-legend .unavailable:active,
 .availability-legend .unreservable:active {
@@ -281,12 +290,16 @@ a:hover, a:focus {
 /* line 52, ../sass/framework/_buttons.scss */
 .disabled.button-see-online, .disabled.bookmark-button, .field-name-ding-entity-buttons .disabled.reserve-button, .field-name-ding-entity-buttons .disabled.reserve-button.unavailable.reservable,
 .ding-periodical-issues .disabled.reserve-button,
-.ding-periodical-issues .disabled.reserve-button.unavailable.reservable, .page-search .disabled.availability.pending, .page-search .disabled.availability.processed, .page-search .disabled.availability.available, .page-search .disabled.availability.reservable, .page-search .disabled.availability.available.reservable, .page-search .disabled.availability.unavailable.reservable, .page-search .disabled.availability.available.not-reservable, .page-search .disabled.availability.unavailable.not-reservable, .availability-legend .disabled.on-loan,
+.ding-periodical-issues .disabled.reserve-button.unavailable.reservable, .ding-item-list-item .item-details .disabled.reserve-button:link,
+.ding-item-list-item .item-details .disabled.reserve-button:hover,
+.alma-item-list .item-details .disabled.reserve-button:link, .page-search .disabled.availability.pending, .page-search .disabled.availability.processed, .page-search .disabled.availability.available, .page-search .disabled.availability.reservable, .page-search .disabled.availability.available.reservable, .page-search .disabled.availability.unavailable.reservable, .page-search .disabled.availability.available.not-reservable, .page-search .disabled.availability.unavailable.not-reservable, .availability-legend .disabled.on-loan,
 .availability-legend .disabled.available,
 .availability-legend .disabled.unavailable,
 .availability-legend .disabled.unreservable, [disabled].button-see-online, [disabled].bookmark-button, .field-name-ding-entity-buttons [disabled].reserve-button, .field-name-ding-entity-buttons [disabled].reserve-button.unavailable.reservable,
 .ding-periodical-issues [disabled].reserve-button,
-.ding-periodical-issues [disabled].reserve-button.unavailable.reservable, .page-search [disabled].availability.pending, .page-search [disabled].availability.processed, .page-search [disabled].availability.available, .page-search [disabled].availability.reservable, .page-search [disabled].availability.available.reservable, .page-search [disabled].availability.unavailable.reservable, .page-search [disabled].availability.available.not-reservable, .page-search [disabled].availability.unavailable.not-reservable, .availability-legend [disabled].on-loan,
+.ding-periodical-issues [disabled].reserve-button.unavailable.reservable, .ding-item-list-item .item-details [disabled].reserve-button:link,
+.ding-item-list-item .item-details [disabled].reserve-button:hover,
+.alma-item-list .item-details [disabled].reserve-button:link, .page-search [disabled].availability.pending, .page-search [disabled].availability.processed, .page-search [disabled].availability.available, .page-search [disabled].availability.reservable, .page-search [disabled].availability.available.reservable, .page-search [disabled].availability.unavailable.reservable, .page-search [disabled].availability.available.not-reservable, .page-search [disabled].availability.unavailable.not-reservable, .availability-legend [disabled].on-loan,
 .availability-legend [disabled].available,
 .availability-legend [disabled].unavailable,
 .availability-legend [disabled].unreservable {
@@ -342,7 +355,10 @@ a.button:hover {
 /* line 130, ../sass/framework/_buttons.scss */
 .button-see-online, .bookmark-button, .field-name-ding-entity-buttons .reserve-button, .field-name-ding-entity-buttons .reserve-button.unavailable.reservable,
 .ding-periodical-issues .reserve-button,
-.ding-periodical-issues .reserve-button.unavailable.reservable {
+.ding-periodical-issues .reserve-button.unavailable.reservable, .ding-item-list-item .item-details .reserve-button:link,
+.ding-item-list-item .item-details .reserve-button:hover,
+.alma-item-list .item-details .reserve-button:link,
+.alma-item-list .item-details .reserve-button:link:hover {
   background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjAuNSIgeTE9IjAuMCIgeDI9IjAuNSIgeTI9IjEuMCI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2Y3ZjdmNyIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iI2QxZDFkMSIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA==');
   background-size: 100%;
   background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #f7f7f7), color-stop(100%, #d1d1d1));
@@ -357,23 +373,37 @@ a.button:hover {
 /* line 77, ../sass/framework/_buttons.scss */
 .button-see-online:link, .bookmark-button:link, .field-name-ding-entity-buttons .reserve-button:link, .field-name-ding-entity-buttons .reserve-button.unavailable.reservable:link,
 .ding-periodical-issues .reserve-button:link,
-.ding-periodical-issues .reserve-button.unavailable.reservable:link, .button-see-online:visited, .bookmark-button:visited, .field-name-ding-entity-buttons .reserve-button:visited, .field-name-ding-entity-buttons .reserve-button.unavailable.reservable:visited,
+.ding-periodical-issues .reserve-button.unavailable.reservable:link, .ding-item-list-item .item-details .reserve-button:link,
+.alma-item-list .item-details .reserve-button:link,
+.alma-item-list .item-details .reserve-button:link:hover, .button-see-online:visited, .bookmark-button:visited, .field-name-ding-entity-buttons .reserve-button:visited, .field-name-ding-entity-buttons .reserve-button.unavailable.reservable:visited,
 .ding-periodical-issues .reserve-button:visited,
-.ding-periodical-issues .reserve-button.unavailable.reservable:visited {
+.ding-periodical-issues .reserve-button.unavailable.reservable:visited, .ding-item-list-item .item-details .reserve-button:visited:link,
+.ding-item-list-item .item-details .reserve-button:visited:hover,
+.alma-item-list .item-details .reserve-button:visited:link {
   color: #000;
 }
 /* line 83, ../sass/framework/_buttons.scss */
 .button-see-online:link, .bookmark-button:link, .field-name-ding-entity-buttons .reserve-button:link, .field-name-ding-entity-buttons .reserve-button.unavailable.reservable:link,
 .ding-periodical-issues .reserve-button:link,
-.ding-periodical-issues .reserve-button.unavailable.reservable:link, .button-see-online:visited, .bookmark-button:visited, .field-name-ding-entity-buttons .reserve-button:visited, .field-name-ding-entity-buttons .reserve-button.unavailable.reservable:visited,
+.ding-periodical-issues .reserve-button.unavailable.reservable:link, .ding-item-list-item .item-details .reserve-button:link,
+.alma-item-list .item-details .reserve-button:link,
+.alma-item-list .item-details .reserve-button:link:hover, .button-see-online:visited, .bookmark-button:visited, .field-name-ding-entity-buttons .reserve-button:visited, .field-name-ding-entity-buttons .reserve-button.unavailable.reservable:visited,
 .ding-periodical-issues .reserve-button:visited,
-.ding-periodical-issues .reserve-button.unavailable.reservable:visited, .button-see-online:focus, .bookmark-button:focus, .field-name-ding-entity-buttons .reserve-button:focus, .field-name-ding-entity-buttons .reserve-button.unavailable.reservable:focus,
+.ding-periodical-issues .reserve-button.unavailable.reservable:visited, .ding-item-list-item .item-details .reserve-button:visited:link,
+.ding-item-list-item .item-details .reserve-button:visited:hover,
+.alma-item-list .item-details .reserve-button:visited:link, .button-see-online:focus, .bookmark-button:focus, .field-name-ding-entity-buttons .reserve-button:focus, .field-name-ding-entity-buttons .reserve-button.unavailable.reservable:focus,
 .ding-periodical-issues .reserve-button:focus,
-.ding-periodical-issues .reserve-button.unavailable.reservable:focus, .button-see-online:hover, .bookmark-button:hover, .field-name-ding-entity-buttons .reserve-button:hover, .field-name-ding-entity-buttons .reserve-button.unavailable.reservable:hover,
+.ding-periodical-issues .reserve-button.unavailable.reservable:focus, .ding-item-list-item .item-details .reserve-button:focus:link,
+.ding-item-list-item .item-details .reserve-button:focus:hover,
+.alma-item-list .item-details .reserve-button:focus:link, .button-see-online:hover, .bookmark-button:hover, .field-name-ding-entity-buttons .reserve-button:hover, .field-name-ding-entity-buttons .reserve-button.unavailable.reservable:hover,
 .ding-periodical-issues .reserve-button:hover,
-.ding-periodical-issues .reserve-button.unavailable.reservable:hover, .button-see-online:active, .bookmark-button:active, .field-name-ding-entity-buttons .reserve-button:active, .field-name-ding-entity-buttons .reserve-button.unavailable.reservable:active,
+.ding-periodical-issues .reserve-button.unavailable.reservable:hover,
+.ding-item-list-item .item-details .reserve-button:hover,
+.alma-item-list .item-details .reserve-button:hover:link, .button-see-online:active, .bookmark-button:active, .field-name-ding-entity-buttons .reserve-button:active, .field-name-ding-entity-buttons .reserve-button.unavailable.reservable:active,
 .ding-periodical-issues .reserve-button:active,
-.ding-periodical-issues .reserve-button.unavailable.reservable:active {
+.ding-periodical-issues .reserve-button.unavailable.reservable:active, .ding-item-list-item .item-details .reserve-button:active:link,
+.ding-item-list-item .item-details .reserve-button:active:hover,
+.alma-item-list .item-details .reserve-button:active:link {
   background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjAuNSIgeTE9IjAuMCIgeDI9IjAuNSIgeTI9IjEuMCI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2VhZWFlYSIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iI2M0YzRjNCIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA==');
   background-size: 100%;
   background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #eaeaea), color-stop(100%, #c4c4c4));
@@ -2277,6 +2307,66 @@ ul.icons li [class*=" icon-"] {
 .availability-legend .unavailable span,
 .availability-legend .unreservable span {
   color: #000;
+}
+
+/* Alma reserve buttons
+   ========================================================================== */
+/* line 81, ../sass/module/_availability.scss */
+.ding-item-list-item .item-details .reserve-button:link,
+.ding-item-list-item .item-details .reserve-button:hover,
+.alma-item-list .item-details .reserve-button:link,
+.alma-item-list .item-details .reserve-button:link:hover {
+  background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjAuNSIgeTE9IjAuMCIgeDI9IjAuNSIgeTI9IjEuMCI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2Y3ZjdmNyIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iI2QxZDFkMSIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA==');
+  background-size: 100%;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #f7f7f7), color-stop(100%, #d1d1d1));
+  background-image: -moz-linear-gradient(#f7f7f7, #d1d1d1);
+  background-image: -webkit-linear-gradient(#f7f7f7, #d1d1d1);
+  background-image: linear-gradient(#f7f7f7, #d1d1d1);
+  /* Make sure buttons get a background color in IE */
+  background-color: #f7f7f7;
+  border: 0;
+  color: #000;
+}
+/* line 77, ../sass/framework/_buttons.scss */
+.ding-item-list-item .item-details .reserve-button:link:link, .ding-item-list-item .item-details .reserve-button:link:visited,
+.ding-item-list-item .item-details .reserve-button:hover:link,
+.ding-item-list-item .item-details .reserve-button:hover:visited,
+.alma-item-list .item-details .reserve-button:link:link,
+.alma-item-list .item-details .reserve-button:link:visited,
+.alma-item-list .item-details .reserve-button:link:hover:link,
+.alma-item-list .item-details .reserve-button:link:hover:visited {
+  color: #000;
+}
+/* line 83, ../sass/framework/_buttons.scss */
+.ding-item-list-item .item-details .reserve-button:link:link, .ding-item-list-item .item-details .reserve-button:link:visited, .ding-item-list-item .item-details .reserve-button:link:focus, .ding-item-list-item .item-details .reserve-button:link:hover, .ding-item-list-item .item-details .reserve-button:link:active,
+.ding-item-list-item .item-details .reserve-button:hover:link,
+.ding-item-list-item .item-details .reserve-button:hover:visited,
+.ding-item-list-item .item-details .reserve-button:hover:focus,
+.ding-item-list-item .item-details .reserve-button:hover:hover,
+.ding-item-list-item .item-details .reserve-button:hover:active,
+.alma-item-list .item-details .reserve-button:link:link,
+.alma-item-list .item-details .reserve-button:link:visited,
+.alma-item-list .item-details .reserve-button:link:focus,
+.alma-item-list .item-details .reserve-button:link:hover,
+.alma-item-list .item-details .reserve-button:link:active,
+.alma-item-list .item-details .reserve-button:link:hover:link,
+.alma-item-list .item-details .reserve-button:link:hover:visited,
+.alma-item-list .item-details .reserve-button:link:hover:focus,
+.alma-item-list .item-details .reserve-button:link:hover:hover,
+.alma-item-list .item-details .reserve-button:link:hover:active {
+  background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjAuNSIgeTE9IjAuMCIgeDI9IjAuNSIgeTI9IjEuMCI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2VhZWFlYSIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iI2M0YzRjNCIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA==');
+  background-size: 100%;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #eaeaea), color-stop(100%, #c4c4c4));
+  background-image: -moz-linear-gradient(#eaeaea, #c4c4c4);
+  background-image: -webkit-linear-gradient(#eaeaea, #c4c4c4);
+  background-image: linear-gradient(#eaeaea, #c4c4c4);
+  background-color: #d1d1d1;
+}
+
+/* line 90, ../sass/module/_availability.scss */
+.pane-alma-item-list {
+  background-color: #fff;
+  padding: 10px;
 }
 
 /* line 5, ../sass/module/_user.scss */
