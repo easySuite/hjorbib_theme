@@ -144,3 +144,39 @@ a {
 .topbar-menu .topbar-link-user-account.menu-item {
   color: #3399cc;
 }
+
+/* Alma reserve buttons
+   ========================================================================== */
+
+.ding-item-list-item .item-details .reserve-button:link,
+.alma-item-list .item-details .reserve-button:link {
+  background: none;
+  border: none;
+  border-radius: none;
+  box-shadow: none;
+  color: $link-color;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+.ding-item-list-item .item-details .reserve-button:hover,
+.alma-item-list .item-details .reserve-button:link:hover {
+  color: darken($link-color, 15%);
+  text-decoration: none;
+}
+
+.pane-alma-item-list {
+  background-color: $white;
+  padding: 10px;
+}
+
+.alma-item-list-item:first-child {
+  border: none;
+  padding-top: 0;
+}
+
+.alma-item-list-item {
+  border-top: 1px dashed $grey;
+  padding-top: 10px;
+}
