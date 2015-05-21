@@ -12,16 +12,11 @@
 @import "configuration/_mixins";
 @import "configuration/_colors";
 
-// Sub theme custom styles
-
-@import "_custom.scss";
-
 // Framework
 
 @import "framework/_navigation";
 @import "framework/_buttons";
 @import "framework/form";
-@import "../../ddbasic/sass/framework/_fontawesome";
 
 // Include modules
 
@@ -32,3 +27,13 @@
 @import "module/_availability";
 @import "module/_user";
 @import "module/_carousel";
+@import "../../../../../profiles/ding2/themes/ddbasic/sass/configuration/_variables";
+@import "../../../../../profiles/ding2/themes/ddbasic/sass/configuration/_configuration";
+@import "../../../../../profiles/ding2/themes/ddbasic/sass/framework/_mixins";
+@import "../../../../../profiles/ding2/themes/ddbasic/sass/framework/_buttons";
+@import "../../../../../profiles/ding2/themes/ddbasic/sass/configuration/_colors_settings";
+
+
+// Sub theme custom styles
+
+@import "_custom.scss";

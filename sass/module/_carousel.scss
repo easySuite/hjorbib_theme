@@ -1,9 +1,6 @@
 /* Variables
    ========================================================================== */
 
-$carousel-active-tab-background-color:     #8b0000;
-$carousel-tab-background-color:            #252525;
-
 
 
 // Wrapper, load and inner
@@ -13,10 +10,10 @@ $carousel-tab-background-color:            #252525;
   background-color: transparent;
 }
 
-.rs-carousel-inner {
+div.rs-carousel-inner {
   padding: 0;
   min-height: 0;
-  background-color: transparent;
+  background: none;
 }
 
 .rs-carousel-title {
@@ -147,19 +144,19 @@ $carousel-tab-background-color:            #252525;
 
       a {
         margin-right: 0;
-        background-color: $carousel-tab-background-color;
+        background-color: $carousel-tab-background;
 
         &:hover {
-          background-color: $carousel-active-tab-background-color;
+          background-color: $carousel-tab-active-background;
         }
       }
 
       &.active {
         a {
-          background-color: $carousel-active-tab-background-color;
+          background-color: $carousel-tab-active-background;
 
           &:before {
-            border-bottom-color: $carousel-active-tab-background-color;
+            border-bottom-color: $carousel-tab-active-background;
           }
         }
       }
