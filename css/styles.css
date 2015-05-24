@@ -1130,10 +1130,10 @@ a.button:hover {
 
 /* Action Links
    ========================================================================== */
-li {
+.action-links li {
   color: #d20001;
 }
-li:before {
+.action-links li:before {
   color: #d20001;
 }
 
