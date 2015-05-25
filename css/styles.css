@@ -4,221 +4,40 @@
  * Every color settings MUST be in HEX format..
  * @author magnify
  */
+/**
+* Colors that can be configured through theme settings.
+*
+* Every color settings MUST be in HEX format..
+* @author magnify
+*/
+/* Topbar */
+/* Header */
+/* Navigation */
+/* Tabroll */
+/* Links */
+/* Labels */
+/* Content */
+/* List */
+/* Footer */
 /* Buttons */
-/* line 1, ../sass/_custom.scss */
-html {
-  height: 100%;
-}
-
-/* line 5, ../sass/_custom.scss */
-body {
-  height: 100%;
-  color: #333;
-}
-@media only screen and (max-width: 768px) {
-  /* line 5, ../sass/_custom.scss */
-  body {
-    background-color: #b4b4b4;
-  }
-}
-@media only screen and (min-width: 769px) {
-  /* line 5, ../sass/_custom.scss */
-  body {
-    background-image: url("../images/bg.png");
-  }
-}
-
-/* line 25, ../sass/_custom.scss */
-a:link {
-  color: #d20001;
-}
-/* line 29, ../sass/_custom.scss */
-a:visited {
-  color: #850001;
-}
-/* line 33, ../sass/_custom.scss */
-a:hover, a:focus {
-  color: #9f0001;
-}
-
-/* line 42, ../sass/_custom.scss */
-.logo {
-  margin-bottom: 0;
-  min-height: 44px;
-}
-/* line 46, ../sass/_custom.scss */
-.logo a {
-  display: block;
-  width: 100%;
-}
-/* line 51, ../sass/_custom.scss */
-.logo object {
-  pointer-events: none;
-}
-
-/* line 163, ../sass/configuration/_mixins.scss */
-::-moz-selection {
-  color: #ffffff;
-  background: #580000;
-}
-
-/* line 163, ../sass/configuration/_mixins.scss */
-::-webkit-selection {
-  color: #ffffff;
-  background: #580000;
-}
-
-/* line 163, ../sass/configuration/_mixins.scss */
-::selection {
-  color: #ffffff;
-  background: #580000;
-}
-
-/* line 68, ../sass/_custom.scss */
-.topbar,
-.header-wrapper {
-  background: none;
-}
-
-/* line 73, ../sass/_custom.scss */
-.site-header {
-  padding-top: 20px;
-}
-
-/* line 77, ../sass/_custom.scss */
-.header-wrapper {
-  overflow: hidden;
-}
-
-/* line 81, ../sass/_custom.scss */
-.topbar {
-  padding-top: 0;
-}
-
-/* line 88, ../sass/_custom.scss */
-.navigation-wrapper {
-  margin-top: 15px;
-  background-color: #252525;
-}
-
-/* line 93, ../sass/_custom.scss */
-.menu-item {
-  color: #ffffff;
-}
-/* line 96, ../sass/_custom.scss */
-.menu-item:hover, .menu-item.active {
-  color: #9f0001;
-}
-
-/* line 102, ../sass/_custom.scss */
-.bottom {
-  background-color: transparent;
-}
-/* line 105, ../sass/_custom.scss */
-.bottom,
-.bottom a {
-  color: #000000;
-  font-weight: 700;
-  font-size: 110%;
-}
-
-/* line 113, ../sass/_custom.scss */
-.footer {
-  background-color: #fff;
-  -moz-box-sizing: border-box;
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box;
-  margin: 0 auto;
-  padding: 10px;
-  max-width: 1180px;
-}
-@media only screen and (max-width: 1210px) {
-  /* line 113, ../sass/_custom.scss */
-  .footer {
-    margin-right: 10px;
-    margin-left: 10px;
-  }
-}
-
-/* line 130, ../sass/_custom.scss */
-.page-ting-object .field-name-ting-details-subjects {
-  display: none !important;
-}
-
-/* line 136, ../sass/_custom.scss */
-.subject-hierarchy-searchfield {
-  display: none;
-}
-
-/* line 140, ../sass/_custom.scss */
-.ui-icon-closethick {
-  margin-top: -16px !important;
-}
-
-/* line 144, ../sass/_custom.scss */
-.topbar-menu .topbar-link-user-account.menu-item {
-  color: #3399cc;
-}
-
-/* Alma reserve buttons
-   ========================================================================== */
-/* line 151, ../sass/_custom.scss */
-.ding-item-list-item .item-details .reserve-button:link,
-.alma-item-list .item-details .reserve-button:link {
-  background: none;
-  border: none;
-  border-radius: none;
-  box-shadow: none;
-  color: #d20001;
-  margin: 0;
-  padding: 0;
-  text-decoration: none;
-}
-
-/* line 163, ../sass/_custom.scss */
-.ding-item-list-item .item-details .reserve-button:hover,
-.alma-item-list .item-details .reserve-button:link:hover {
-  color: #850001;
-  text-decoration: none;
-}
-
-/* line 169, ../sass/_custom.scss */
-.pane-alma-item-list {
-  background-color: #ffffff;
-  padding: 10px;
-}
-
-/* line 174, ../sass/_custom.scss */
-.alma-item-list-item:first-child {
-  border: none;
-  padding-top: 0;
-}
-
-/* line 179, ../sass/_custom.scss */
-.alma-item-list-item {
-  border-top: 1px dashed #d5d5d5;
-  padding-top: 10px;
-}
-
-/* line 6, ../sass/framework/_navigation.scss */
+/* Dialog box */
+/* Funny facts */
+/* Carousel */
 .topbar-menu .menu-item {
   background-color: #333;
   color: #ffffff;
 }
-/* line 10, ../sass/framework/_navigation.scss */
 .topbar-menu .menu-item:hover, .topbar-menu .menu-item.active {
   background-color: #af0000;
   color: #ffffff;
 }
 
-/* line 27, ../sass/framework/_navigation.scss */
 .main-menu .menu-item,
 .secondary-menu .menu-item,
 .system-user-menu .menu-item {
   color: #ffffff;
   font-weight: 700;
 }
-/* line 31, ../sass/framework/_navigation.scss */
 .main-menu .menu-item:hover, .main-menu .menu-item.active,
 .secondary-menu .menu-item:hover,
 .secondary-menu .menu-item.active,
@@ -227,46 +46,36 @@ a:hover, a:focus {
   color: #9f0001;
 }
 
-/* line 41, ../sass/framework/_navigation.scss */
 .system-user-menu .menu-item {
   color: #ffffff;
 }
 
-/* line 56, ../sass/framework/_navigation.scss */
 .sub-menu > li a {
   color: #d20001;
 }
-/* line 59, ../sass/framework/_navigation.scss */
 .sub-menu > li a:hover {
   color: #9f0001;
 }
-/* line 66, ../sass/framework/_navigation.scss */
 .sub-menu li:before {
   color: #d20001;
 }
 
-/* line 79, ../sass/framework/_navigation.scss */
 .footer .pane-title {
   color: #d20001;
 }
-/* line 87, ../sass/framework/_navigation.scss */
 .footer .menu li:before {
   color: #d20001;
 }
-/* line 91, ../sass/framework/_navigation.scss */
 .footer .menu li a {
   color: #d20001;
 }
-/* line 94, ../sass/framework/_navigation.scss */
 .footer .menu li a.active {
   color: #9f0001;
 }
 
-/* line 109, ../sass/framework/_navigation.scss */
 .action-links li {
   color: #d20001;
 }
-/* line 112, ../sass/framework/_navigation.scss */
 .action-links li:before {
   color: #d20001;
 }
@@ -280,7 +89,6 @@ a:hover, a:focus {
    ========================================================================== */
 /* Extends
    ========================================================================== */
-/* line 32, ../sass/framework/_buttons.scss */
 .button-see-online, .bookmark-button, .field-name-ding-entity-buttons .reserve-button, .field-name-ding-entity-buttons .reserve-button.unavailable.reservable,
 .ding-periodical-issues .reserve-button,
 .ding-periodical-issues .reserve-button.unavailable.reservable, .page-search .availability.pending, .page-search .availability.processed, .page-search .availability.available, .page-search .availability.reservable, .page-search .availability.available.reservable, .page-search .availability.unavailable.reservable, .page-search .availability.available.not-reservable, .page-search .availability.unavailable.not-reservable, .availability-legend .on-loan,
@@ -299,7 +107,6 @@ a:hover, a:focus {
   vertical-align: middle;
   line-height: 100%;
 }
-/* line 45, ../sass/framework/_buttons.scss */
 .button-see-online:focus, .bookmark-button:focus, .field-name-ding-entity-buttons .reserve-button:focus, .field-name-ding-entity-buttons .reserve-button.unavailable.reservable:focus,
 .ding-periodical-issues .reserve-button:focus,
 .ding-periodical-issues .reserve-button.unavailable.reservable:focus, .page-search .availability.pending:focus, .page-search .availability.processed:focus, .page-search .availability.available:focus, .page-search .availability.reservable:focus, .page-search .availability.available.reservable:focus, .page-search .availability.unavailable.reservable:focus, .page-search .availability.available.not-reservable:focus, .page-search .availability.unavailable.not-reservable:focus, .availability-legend .on-loan:focus,
@@ -318,7 +125,6 @@ a:hover, a:focus {
 .availability-legend .unreservable:active {
   text-decoration: none;
 }
-/* line 52, ../sass/framework/_buttons.scss */
 .disabled.button-see-online, .disabled.bookmark-button, .field-name-ding-entity-buttons .disabled.reserve-button, .field-name-ding-entity-buttons .disabled.reserve-button.unavailable.reservable,
 .ding-periodical-issues .disabled.reserve-button,
 .ding-periodical-issues .disabled.reserve-button.unavailable.reservable, .page-search .disabled.availability.pending, .page-search .disabled.availability.processed, .page-search .disabled.availability.available, .page-search .disabled.availability.reservable, .page-search .disabled.availability.available.reservable, .page-search .disabled.availability.unavailable.reservable, .page-search .disabled.availability.available.not-reservable, .page-search .disabled.availability.unavailable.not-reservable, .availability-legend .disabled.on-loan,
@@ -341,7 +147,6 @@ a:hover, a:focus {
 /* Mixins
    ========================================================================== */
 /* Default button, we dont use gradiant mixin sin since it's part of color module */
-/* line 96, ../sass/framework/_buttons.scss */
 .button,
 a.button {
   background-color: #444443;
@@ -359,7 +164,6 @@ a.button {
   background-image: -webkit-linear-gradient(#444443, #1e1e1f);
   background-image: linear-gradient(#444443, #1e1e1f);
 }
-/* line 108, ../sass/framework/_buttons.scss */
 .button:link, .button:visited, .button:focus, .button:active,
 a.button:link,
 a.button:visited,
@@ -370,7 +174,6 @@ a.button:active {
   background-image: none;
   background-color: #444443;
 }
-/* line 118, ../sass/framework/_buttons.scss */
 .button:hover,
 a.button:hover {
   background-color: #1e1e1e;
@@ -379,7 +182,6 @@ a.button:hover {
 
 /* Theme button */
 /* Action button */
-/* line 130, ../sass/framework/_buttons.scss */
 .button-see-online, .bookmark-button, .field-name-ding-entity-buttons .reserve-button, .field-name-ding-entity-buttons .reserve-button.unavailable.reservable,
 .ding-periodical-issues .reserve-button,
 .ding-periodical-issues .reserve-button.unavailable.reservable {
@@ -394,7 +196,6 @@ a.button:hover {
   border: 0;
   color: #000000;
 }
-/* line 77, ../sass/framework/_buttons.scss */
 .button-see-online:link, .bookmark-button:link, .field-name-ding-entity-buttons .reserve-button:link, .field-name-ding-entity-buttons .reserve-button.unavailable.reservable:link,
 .ding-periodical-issues .reserve-button:link,
 .ding-periodical-issues .reserve-button.unavailable.reservable:link, .button-see-online:visited, .bookmark-button:visited, .field-name-ding-entity-buttons .reserve-button:visited, .field-name-ding-entity-buttons .reserve-button.unavailable.reservable:visited,
@@ -402,7 +203,6 @@ a.button:hover {
 .ding-periodical-issues .reserve-button.unavailable.reservable:visited {
   color: #000000;
 }
-/* line 83, ../sass/framework/_buttons.scss */
 .button-see-online:link, .bookmark-button:link, .field-name-ding-entity-buttons .reserve-button:link, .field-name-ding-entity-buttons .reserve-button.unavailable.reservable:link,
 .ding-periodical-issues .reserve-button:link,
 .ding-periodical-issues .reserve-button.unavailable.reservable:link, .button-see-online:visited, .bookmark-button:visited, .field-name-ding-entity-buttons .reserve-button:visited, .field-name-ding-entity-buttons .reserve-button.unavailable.reservable:visited,
@@ -426,7 +226,6 @@ a.button:hover {
 /* Warning button */
 /* Danger button */
 /* Don't use native buttons on iOS */
-/* line 146, ../sass/framework/_buttons.scss */
 input[type=submit].button,
 button.button {
   -webkit-appearance: none;
@@ -434,7 +233,6 @@ button.button {
 
 /* Correct FF button padding */
 @-moz-document url-prefix() {
-  /* line 154, ../sass/framework/_buttons.scss */
   button::-moz-focus-inner,
   input[type="reset"]::-moz-focus-inner,
   input[type="button"]::-moz-focus-inner,
@@ -444,7 +242,6 @@ button.button {
     padding: 0;
   }
 }
-/* line 13, ../sass/framework/_form.scss */
 input[type="text"]:focus,
 input[type="password"]:focus,
 input[type="date"]:focus,
@@ -461,1686 +258,85 @@ textarea:focus {
   color: black;
 }
 
-/*!
- *  Font Awesome 3.0.1
- *  the iconic font designed for use with Twitter Bootstrap
- *  -------------------------------------------------------
- *  The full suite of pictographic icons, examples, and documentation
- *  can be found at: http://fortawesome.github.com/Font-Awesome/
- *
- *  License
- *  -------------------------------------------------------
- *  - The Font Awesome font is licensed under the SIL Open Font License - http://scripts.sil.org/OFL
- *  - Font Awesome CSS, LESS, and SASS files are licensed under the MIT License -
- *    http://opensource.org/licenses/mit-license.html
- *  - The Font Awesome pictograms are licensed under the CC BY 3.0 License - http://creativecommons.org/licenses/by/3.0/
- *  - Attribution is no longer required in Font Awesome 3.0, but much appreciated:
- *    "Font Awesome by Dave Gandy - http://fortawesome.github.com/Font-Awesome"
- *
- *  Contact
- *  -------------------------------------------------------
- *  Email: dave@davegandy.com
- *  Twitter: http://twitter.com/fortaweso_me
- *  Work: Lead Product Designer @ http://kyruus.com
- */
-@font-face {
-  font-family: 'FontAwesome';
-  src: url("../../ddbasic/font/fontawesome-webfont.eot?v=3.0.1");
-  src: url("../../ddbasic/font/fontawesome-webfont.eot?#iefix&v=3.0.1") format("embedded-opentype"), url("../../ddbasic/font/fontawesome-webfont.woff?v=3.0.1") format("woff"), url("../../ddbasic/font/fontawesome-webfont.ttf?v=3.0.1") format("truetype");
-  font-weight: normal;
-  font-style: normal;
-}
-/*  Font Awesome styles
-    ------------------------------------------------------- */
-/* line 42, ../../ddbasic/sass/framework/_fontawesome.scss */
-[class^="icon-"],
-[class*=" icon-"] {
-  font-family: FontAwesome;
-  font-weight: normal;
-  font-style: normal;
-  text-decoration: inherit;
-  -webkit-font-smoothing: antialiased;
-  /* sprites.less reset */
-  display: inline;
-  width: auto;
-  height: auto;
-  line-height: normal;
-  vertical-align: baseline;
-  background-image: none;
-  background-position: 0% 0%;
-  background-repeat: repeat;
-  margin-top: 0;
-}
-
-/* more sprites.less reset */
-/* line 63, ../../ddbasic/sass/framework/_fontawesome.scss */
-.icon-white,
-.nav-pills > .active > a > [class^="icon-"],
-.nav-pills > .active > a > [class*=" icon-"],
-.nav-list > .active > a > [class^="icon-"],
-.nav-list > .active > a > [class*=" icon-"],
-.navbar-inverse .nav > .active > a > [class^="icon-"],
-.navbar-inverse .nav > .active > a > [class*=" icon-"],
-.dropdown-menu > li > a:hover > [class^="icon-"],
-.dropdown-menu > li > a:hover > [class*=" icon-"],
-.dropdown-menu > .active > a > [class^="icon-"],
-.dropdown-menu > .active > a > [class*=" icon-"],
-.dropdown-submenu:hover > a > [class^="icon-"],
-.dropdown-submenu:hover > a > [class*=" icon-"] {
-  background-image: none;
-}
-
-/* line 79, ../../ddbasic/sass/framework/_fontawesome.scss */
-[class^="icon-"]:before,
-[class*=" icon-"]:before {
-  text-decoration: inherit;
-  display: inline-block;
-  speak: none;
-}
-
-/* makes sure icons active on rollover in links */
-/* line 88, ../../ddbasic/sass/framework/_fontawesome.scss */
-a [class^="icon-"],
-a [class*=" icon-"] {
-  display: inline-block;
-}
-
-/* makes the font 33% larger relative to the icon container */
-/* line 95, ../../ddbasic/sass/framework/_fontawesome.scss */
-.icon-large:before {
-  vertical-align: -10%;
-  font-size: 1.3333333333333333em;
-}
-
-/* line 101, ../../ddbasic/sass/framework/_fontawesome.scss */
-.btn [class^="icon-"],
-.btn [class*=" icon-"], .nav [class^="icon-"],
-.nav [class*=" icon-"] {
-  display: inline;
-  /* keeps button heights with and without icons the same */
-}
-/* line 105, ../../ddbasic/sass/framework/_fontawesome.scss */
-.btn [class^="icon-"].icon-large,
-.btn [class*=" icon-"].icon-large, .nav [class^="icon-"].icon-large,
-.nav [class*=" icon-"].icon-large {
-  line-height: .9em;
-}
-/* line 106, ../../ddbasic/sass/framework/_fontawesome.scss */
-.btn [class^="icon-"].icon-spin,
-.btn [class*=" icon-"].icon-spin, .nav [class^="icon-"].icon-spin,
-.nav [class*=" icon-"].icon-spin {
-  display: inline-block;
-}
-
-/* line 111, ../../ddbasic/sass/framework/_fontawesome.scss */
-.nav-tabs [class^="icon-"],
-.nav-tabs [class*=" icon-"], .nav-pills [class^="icon-"],
-.nav-pills [class*=" icon-"] {
-  /* keeps button heights with and without icons the same */
-}
-/* line 114, ../../ddbasic/sass/framework/_fontawesome.scss */
-.nav-tabs [class^="icon-"], .nav-tabs [class^="icon-"].icon-large,
-.nav-tabs [class*=" icon-"],
-.nav-tabs [class*=" icon-"].icon-large, .nav-pills [class^="icon-"], .nav-pills [class^="icon-"].icon-large,
-.nav-pills [class*=" icon-"],
-.nav-pills [class*=" icon-"].icon-large {
-  line-height: .9em;
-}
-
-/* line 119, ../../ddbasic/sass/framework/_fontawesome.scss */
-li [class^="icon-"],
-li [class*=" icon-"], .nav li [class^="icon-"],
-.nav li [class*=" icon-"] {
-  display: inline-block;
-  width: 1.25em;
-  text-align: center;
-}
-/* line 124, ../../ddbasic/sass/framework/_fontawesome.scss */
-li [class^="icon-"].icon-large,
-li [class*=" icon-"].icon-large, .nav li [class^="icon-"].icon-large,
-.nav li [class*=" icon-"].icon-large {
-  /* increased font size for icon-large */
-  width: 1.5625em;
-}
-
-/* line 131, ../../ddbasic/sass/framework/_fontawesome.scss */
-ul.icons {
-  list-style-type: none;
-  text-indent: -.75em;
-}
-/* line 136, ../../ddbasic/sass/framework/_fontawesome.scss */
-ul.icons li [class^="icon-"],
-ul.icons li [class*=" icon-"] {
-  width: .75em;
-}
-
-/* line 143, ../../ddbasic/sass/framework/_fontawesome.scss */
-.icon-muted {
-  color: #eee;
-}
-
-/* line 150, ../../ddbasic/sass/framework/_fontawesome.scss */
-.icon-border {
-  border: solid 1px #eee;
-  padding: .2em .25em .15em;
-  -webkit-border-radius: 3px;
-  -moz-border-radius: 3px;
-  border-radius: 3px;
-}
-
-/* line 159, ../../ddbasic/sass/framework/_fontawesome.scss */
-.icon-2x {
-  font-size: 2em;
-}
-/* line 161, ../../ddbasic/sass/framework/_fontawesome.scss */
-.icon-2x.icon-border {
-  border-width: 2px;
-  -webkit-border-radius: 4px;
-  -moz-border-radius: 4px;
-  border-radius: 4px;
-}
-
-/* line 166, ../../ddbasic/sass/framework/_fontawesome.scss */
-.icon-3x {
-  font-size: 3em;
-}
-/* line 168, ../../ddbasic/sass/framework/_fontawesome.scss */
-.icon-3x.icon-border {
-  border-width: 3px;
-  -webkit-border-radius: 5px;
-  -moz-border-radius: 5px;
-  border-radius: 5px;
-}
-
-/* line 173, ../../ddbasic/sass/framework/_fontawesome.scss */
-.icon-4x {
-  font-size: 4em;
-}
-/* line 175, ../../ddbasic/sass/framework/_fontawesome.scss */
-.icon-4x.icon-border {
-  border-width: 4px;
-  -webkit-border-radius: 6px;
-  -moz-border-radius: 6px;
-  border-radius: 6px;
-}
-
-/* line 185, ../../ddbasic/sass/framework/_fontawesome.scss */
-.pull-right {
-  float: right;
-}
-
-/* line 186, ../../ddbasic/sass/framework/_fontawesome.scss */
-.pull-left {
-  float: left;
-}
-
-/* line 190, ../../ddbasic/sass/framework/_fontawesome.scss */
-[class^="icon-"].pull-left,
-[class*=" icon-"].pull-left {
-  margin-right: .3em;
-}
-/* line 193, ../../ddbasic/sass/framework/_fontawesome.scss */
-[class^="icon-"].pull-right,
-[class*=" icon-"].pull-right {
-  margin-left: .3em;
-}
-
-/* line 202, ../../ddbasic/sass/framework/_fontawesome.scss */
-.btn [class^="icon-"].pull-left.icon-2x, .btn [class^="icon-"].pull-right.icon-2x,
-.btn [class*=" icon-"].pull-left.icon-2x,
-.btn [class*=" icon-"].pull-right.icon-2x {
-  margin-top: .18em;
-}
-/* line 204, ../../ddbasic/sass/framework/_fontawesome.scss */
-.btn [class^="icon-"].icon-spin.icon-large,
-.btn [class*=" icon-"].icon-spin.icon-large {
-  line-height: .8em;
-}
-
-/* line 212, ../../ddbasic/sass/framework/_fontawesome.scss */
-.btn.btn-small [class^="icon-"].pull-left.icon-2x, .btn.btn-small [class^="icon-"].pull-right.icon-2x,
-.btn.btn-small [class*=" icon-"].pull-left.icon-2x,
-.btn.btn-small [class*=" icon-"].pull-right.icon-2x {
-  margin-top: .25em;
-}
-
-/* line 218, ../../ddbasic/sass/framework/_fontawesome.scss */
-.btn.btn-large [class^="icon-"],
-.btn.btn-large [class*=" icon-"] {
-  margin-top: 0;
-}
-/* line 222, ../../ddbasic/sass/framework/_fontawesome.scss */
-.btn.btn-large [class^="icon-"].pull-left.icon-2x, .btn.btn-large [class^="icon-"].pull-right.icon-2x,
-.btn.btn-large [class*=" icon-"].pull-left.icon-2x,
-.btn.btn-large [class*=" icon-"].pull-right.icon-2x {
-  margin-top: .05em;
-}
-/* line 224, ../../ddbasic/sass/framework/_fontawesome.scss */
-.btn.btn-large [class^="icon-"].pull-left.icon-2x,
-.btn.btn-large [class*=" icon-"].pull-left.icon-2x {
-  margin-right: .2em;
-}
-/* line 225, ../../ddbasic/sass/framework/_fontawesome.scss */
-.btn.btn-large [class^="icon-"].pull-right.icon-2x,
-.btn.btn-large [class*=" icon-"].pull-right.icon-2x {
-  margin-left: .2em;
-}
-
-/* line 230, ../../ddbasic/sass/framework/_fontawesome.scss */
-.icon-spin {
-  display: inline-block;
-  -moz-animation: spin 2s infinite linear;
-  -o-animation: spin 2s infinite linear;
-  -webkit-animation: spin 2s infinite linear;
-  animation: spin 2s infinite linear;
-}
-
-@-moz-keyframes spin {
-  0% {
-    -moz-transform: rotate(0deg);
-  }
-  100% {
-    -moz-transform: rotate(359deg);
-  }
-}
-@-webkit-keyframes spin {
-  0% {
-    -webkit-transform: rotate(0deg);
-  }
-  100% {
-    -webkit-transform: rotate(359deg);
-  }
-}
-@-o-keyframes spin {
-  0% {
-    -o-transform: rotate(0deg);
-  }
-  100% {
-    -o-transform: rotate(359deg);
-  }
-}
-@-ms-keyframes spin {
-  0% {
-    -ms-transform: rotate(0deg);
-  }
-  100% {
-    -ms-transform: rotate(359deg);
-  }
-}
-@keyframes spin {
-  0% {
-    transform: rotate(0deg);
-  }
-  100% {
-    transform: rotate(359deg);
-  }
-}
-@-moz-document url-prefix() {
-  /* line 260, ../../ddbasic/sass/framework/_fontawesome.scss */
-  .icon-spin {
-    height: .9em;
-  }
-
-  /* line 261, ../../ddbasic/sass/framework/_fontawesome.scss */
-  .btn .icon-spin {
-    height: auto;
-  }
-
-  /* line 262, ../../ddbasic/sass/framework/_fontawesome.scss */
-  .icon-spin.icon-large {
-    height: 1.25em;
-  }
-
-  /* line 263, ../../ddbasic/sass/framework/_fontawesome.scss */
-  .btn .icon-spin.icon-large {
-    height: .75em;
-  }
-}
-/*  Font Awesome uses the Unicode Private Use Area (PUA) to ensure screen
-    readers do not read off random characters that represent icons */
-/* line 268, ../../ddbasic/sass/framework/_fontawesome.scss */
-.icon-glass:before {
-  content: "\f000";
-}
-
-/* line 269, ../../ddbasic/sass/framework/_fontawesome.scss */
-.icon-music:before {
-  content: "\f001";
-}
-
-/* line 270, ../../ddbasic/sass/framework/_fontawesome.scss */
-.icon-search:before {
-  content: "\f002";
-}
-
-/* line 271, ../../ddbasic/sass/framework/_fontawesome.scss */
-.icon-envelope:before {
-  content: "\f003";
-}
-
-/* line 272, ../../ddbasic/sass/framework/_fontawesome.scss */
-.icon-heart:before {
-  content: "\f004";
-}
-
-/* line 273, ../../ddbasic/sass/framework/_fontawesome.scss */
-.icon-star:before {
-  content: "\f005";
-}
-
-/* line 274, ../../ddbasic/sass/framework/_fontawesome.scss */
-.icon-star-empty:before {
-  content: "\f006";
-}
-
-/* line 275, ../../ddbasic/sass/framework/_fontawesome.scss */
-.icon-user:before {
-  content: "\f007";
-}
-
-/* line 276, ../../ddbasic/sass/framework/_fontawesome.scss */
-.icon-film:before {
-  content: "\f008";
-}
-
-/* line 277, ../../ddbasic/sass/framework/_fontawesome.scss */
-.icon-th-large:before {
-  content: "\f009";
-}
-
-/* line 278, ../../ddbasic/sass/framework/_fontawesome.scss */
-.icon-th:before {
-  content: "\f00a";
-}
-
-/* line 279, ../../ddbasic/sass/framework/_fontawesome.scss */
-.icon-th-list:before {
-  content: "\f00b";
-}
-
-/* line 280, ../../ddbasic/sass/framework/_fontawesome.scss */
-.icon-ok:before {
-  content: "\f00c";
-}
-
-/* line 281, ../../ddbasic/sass/framework/_fontawesome.scss */
-.icon-remove:before {
-  content: "\f00d";
-}
-
-/* line 282, ../../ddbasic/sass/framework/_fontawesome.scss */
-.icon-zoom-in:before {
-  content: "\f00e";
-}
-
-/* line 284, ../../ddbasic/sass/framework/_fontawesome.scss */
-.icon-zoom-out:before {
-  content: "\f010";
-}
-
-/* line 285, ../../ddbasic/sass/framework/_fontawesome.scss */
-.icon-off:before {
-  content: "\f011";
-}
-
-/* line 286, ../../ddbasic/sass/framework/_fontawesome.scss */
-.icon-signal:before {
-  content: "\f012";
-}
-
-/* line 287, ../../ddbasic/sass/framework/_fontawesome.scss */
-.icon-cog:before {
-  content: "\f013";
-}
-
-/* line 288, ../../ddbasic/sass/framework/_fontawesome.scss */
-.icon-trash:before {
-  content: "\f014";
-}
-
-/* line 289, ../../ddbasic/sass/framework/_fontawesome.scss */
-.icon-home:before {
-  content: "\f015";
-}
-
-/* line 290, ../../ddbasic/sass/framework/_fontawesome.scss */
-.icon-file:before {
-  content: "\f016";
-}
-
-/* line 291, ../../ddbasic/sass/framework/_fontawesome.scss */
-.icon-time:before {
-  content: "\f017";
-}
-
-/* line 292, ../../ddbasic/sass/framework/_fontawesome.scss */
-.icon-road:before {
-  content: "\f018";
-}
-
-/* line 293, ../../ddbasic/sass/framework/_fontawesome.scss */
-.icon-download-alt:before {
-  content: "\f019";
-}
-
-/* line 294, ../../ddbasic/sass/framework/_fontawesome.scss */
-.icon-download:before {
-  content: "\f01a";
-}
-
-/* line 295, ../../ddbasic/sass/framework/_fontawesome.scss */
-.icon-upload:before {
-  content: "\f01b";
-}
-
-/* line 296, ../../ddbasic/sass/framework/_fontawesome.scss */
-.icon-inbox:before {
-  content: "\f01c";
-}
-
-/* line 297, ../../ddbasic/sass/framework/_fontawesome.scss */
-.icon-play-circle:before {
-  content: "\f01d";
-}
-
-/* line 298, ../../ddbasic/sass/framework/_fontawesome.scss */
-.icon-repeat:before {
-  content: "\f01e";
-}
-
-/* \f020 doesn't work in Safari. all shifted one down */
-/* line 301, ../../ddbasic/sass/framework/_fontawesome.scss */
-.icon-refresh:before {
-  content: "\f021";
-}
-
-/* line 302, ../../ddbasic/sass/framework/_fontawesome.scss */
-.icon-list-alt:before {
-  content: "\f022";
-}
-
-/* line 303, ../../ddbasic/sass/framework/_fontawesome.scss */
-.icon-lock:before {
-  content: "\f023";
-}
-
-/* line 304, ../../ddbasic/sass/framework/_fontawesome.scss */
-.icon-flag:before {
-  content: "\f024";
-}
-
-/* line 305, ../../ddbasic/sass/framework/_fontawesome.scss */
-.icon-headphones:before {
-  content: "\f025";
-}
-
-/* line 306, ../../ddbasic/sass/framework/_fontawesome.scss */
-.icon-volume-off:before {
-  content: "\f026";
-}
-
-/* line 307, ../../ddbasic/sass/framework/_fontawesome.scss */
-.icon-volume-down:before {
-  content: "\f027";
-}
-
-/* line 308, ../../ddbasic/sass/framework/_fontawesome.scss */
-.icon-volume-up:before {
-  content: "\f028";
-}
-
-/* line 309, ../../ddbasic/sass/framework/_fontawesome.scss */
-.icon-qrcode:before {
-  content: "\f029";
-}
-
-/* line 310, ../../ddbasic/sass/framework/_fontawesome.scss */
-.icon-barcode:before {
-  content: "\f02a";
-}
-
-/* line 311, ../../ddbasic/sass/framework/_fontawesome.scss */
-.icon-tag:before {
-  content: "\f02b";
-}
-
-/* line 312, ../../ddbasic/sass/framework/_fontawesome.scss */
-.icon-tags:before {
-  content: "\f02c";
-}
-
-/* line 313, ../../ddbasic/sass/framework/_fontawesome.scss */
-.icon-book:before {
-  content: "\f02d";
-}
-
-/* line 314, ../../ddbasic/sass/framework/_fontawesome.scss */
-.icon-bookmark:before {
-  content: "\f02e";
-}
-
-/* line 315, ../../ddbasic/sass/framework/_fontawesome.scss */
-.icon-print:before {
-  content: "\f02f";
-}
-
-/* line 317, ../../ddbasic/sass/framework/_fontawesome.scss */
-.icon-camera:before {
-  content: "\f030";
-}
-
-/* line 318, ../../ddbasic/sass/framework/_fontawesome.scss */
-.icon-font:before {
-  content: "\f031";
-}
-
-/* line 319, ../../ddbasic/sass/framework/_fontawesome.scss */
-.icon-bold:before {
-  content: "\f032";
-}
-
-/* line 320, ../../ddbasic/sass/framework/_fontawesome.scss */
-.icon-italic:before {
-  content: "\f033";
-}
-
-/* line 321, ../../ddbasic/sass/framework/_fontawesome.scss */
-.icon-text-height:before {
-  content: "\f034";
-}
-
-/* line 322, ../../ddbasic/sass/framework/_fontawesome.scss */
-.icon-text-width:before {
-  content: "\f035";
-}
-
-/* line 323, ../../ddbasic/sass/framework/_fontawesome.scss */
-.icon-align-left:before {
-  content: "\f036";
-}
-
-/* line 324, ../../ddbasic/sass/framework/_fontawesome.scss */
-.icon-align-center:before {
-  content: "\f037";
-}
-
-/* line 325, ../../ddbasic/sass/framework/_fontawesome.scss */
-.icon-align-right:before {
-  content: "\f038";
-}
-
-/* line 326, ../../ddbasic/sass/framework/_fontawesome.scss */
-.icon-align-justify:before {
-  content: "\f039";
-}
-
-/* line 327, ../../ddbasic/sass/framework/_fontawesome.scss */
-.icon-list:before {
-  content: "\f03a";
-}
-
-/* line 328, ../../ddbasic/sass/framework/_fontawesome.scss */
-.icon-indent-left:before {
-  content: "\f03b";
-}
-
-/* line 329, ../../ddbasic/sass/framework/_fontawesome.scss */
-.icon-indent-right:before {
-  content: "\f03c";
-}
-
-/* line 330, ../../ddbasic/sass/framework/_fontawesome.scss */
-.icon-facetime-video:before {
-  content: "\f03d";
-}
-
-/* line 331, ../../ddbasic/sass/framework/_fontawesome.scss */
-.icon-picture:before {
-  content: "\f03e";
-}
-
-/* line 333, ../../ddbasic/sass/framework/_fontawesome.scss */
-.icon-pencil:before {
-  content: "\f040";
-}
-
-/* line 334, ../../ddbasic/sass/framework/_fontawesome.scss */
-.icon-map-marker:before {
-  content: "\f041";
-}
-
-/* line 335, ../../ddbasic/sass/framework/_fontawesome.scss */
-.icon-adjust:before {
-  content: "\f042";
-}
-
-/* line 336, ../../ddbasic/sass/framework/_fontawesome.scss */
-.icon-tint:before {
-  content: "\f043";
-}
-
-/* line 337, ../../ddbasic/sass/framework/_fontawesome.scss */
-.icon-edit:before {
-  content: "\f044";
-}
-
-/* line 338, ../../ddbasic/sass/framework/_fontawesome.scss */
-.icon-share:before {
-  content: "\f045";
-}
-
-/* line 339, ../../ddbasic/sass/framework/_fontawesome.scss */
-.icon-check:before {
-  content: "\f046";
-}
-
-/* line 340, ../../ddbasic/sass/framework/_fontawesome.scss */
-.icon-move:before {
-  content: "\f047";
-}
-
-/* line 341, ../../ddbasic/sass/framework/_fontawesome.scss */
-.icon-step-backward:before {
-  content: "\f048";
-}
-
-/* line 342, ../../ddbasic/sass/framework/_fontawesome.scss */
-.icon-fast-backward:before {
-  content: "\f049";
-}
-
-/* line 343, ../../ddbasic/sass/framework/_fontawesome.scss */
-.icon-backward:before {
-  content: "\f04a";
-}
-
-/* line 344, ../../ddbasic/sass/framework/_fontawesome.scss */
-.icon-play:before {
-  content: "\f04b";
-}
-
-/* line 345, ../../ddbasic/sass/framework/_fontawesome.scss */
-.icon-pause:before {
-  content: "\f04c";
-}
-
-/* line 346, ../../ddbasic/sass/framework/_fontawesome.scss */
-.icon-stop:before {
-  content: "\f04d";
-}
-
-/* line 347, ../../ddbasic/sass/framework/_fontawesome.scss */
-.icon-forward:before {
-  content: "\f04e";
-}
-
-/* line 349, ../../ddbasic/sass/framework/_fontawesome.scss */
-.icon-fast-forward:before {
-  content: "\f050";
-}
-
-/* line 350, ../../ddbasic/sass/framework/_fontawesome.scss */
-.icon-step-forward:before {
-  content: "\f051";
-}
-
-/* line 351, ../../ddbasic/sass/framework/_fontawesome.scss */
-.icon-eject:before {
-  content: "\f052";
-}
-
-/* line 352, ../../ddbasic/sass/framework/_fontawesome.scss */
-.icon-chevron-left:before {
-  content: "\f053";
-}
-
-/* line 353, ../../ddbasic/sass/framework/_fontawesome.scss */
-.icon-chevron-right:before {
-  content: "\f054";
-}
-
-/* line 354, ../../ddbasic/sass/framework/_fontawesome.scss */
-.icon-plus-sign:before, .more-info-wrapper a:before {
-  content: "\f055";
-}
-
-/* line 355, ../../ddbasic/sass/framework/_fontawesome.scss */
-.icon-minus-sign:before {
-  content: "\f056";
-}
-
-/* line 356, ../../ddbasic/sass/framework/_fontawesome.scss */
-.icon-remove-sign:before {
-  content: "\f057";
-}
-
-/* line 357, ../../ddbasic/sass/framework/_fontawesome.scss */
-.icon-ok-sign:before {
-  content: "\f058";
-}
-
-/* line 358, ../../ddbasic/sass/framework/_fontawesome.scss */
-.icon-question-sign:before {
-  content: "\f059";
-}
-
-/* line 359, ../../ddbasic/sass/framework/_fontawesome.scss */
-.icon-info-sign:before {
-  content: "\f05a";
-}
-
-/* line 360, ../../ddbasic/sass/framework/_fontawesome.scss */
-.icon-screenshot:before {
-  content: "\f05b";
-}
-
-/* line 361, ../../ddbasic/sass/framework/_fontawesome.scss */
-.icon-remove-circle:before {
-  content: "\f05c";
-}
-
-/* line 362, ../../ddbasic/sass/framework/_fontawesome.scss */
-.icon-ok-circle:before {
-  content: "\f05d";
-}
-
-/* line 363, ../../ddbasic/sass/framework/_fontawesome.scss */
-.icon-ban-circle:before {
-  content: "\f05e";
-}
-
-/* line 365, ../../ddbasic/sass/framework/_fontawesome.scss */
-.icon-arrow-left:before {
-  content: "\f060";
-}
-
-/* line 366, ../../ddbasic/sass/framework/_fontawesome.scss */
-.icon-arrow-right:before {
-  content: "\f061";
-}
-
-/* line 367, ../../ddbasic/sass/framework/_fontawesome.scss */
-.icon-arrow-up:before {
-  content: "\f062";
-}
-
-/* line 368, ../../ddbasic/sass/framework/_fontawesome.scss */
-.icon-arrow-down:before {
-  content: "\f063";
-}
-
-/* line 369, ../../ddbasic/sass/framework/_fontawesome.scss */
-.icon-share-alt:before {
-  content: "\f064";
-}
-
-/* line 370, ../../ddbasic/sass/framework/_fontawesome.scss */
-.icon-resize-full:before {
-  content: "\f065";
-}
-
-/* line 371, ../../ddbasic/sass/framework/_fontawesome.scss */
-.icon-resize-small:before {
-  content: "\f066";
-}
-
-/* line 372, ../../ddbasic/sass/framework/_fontawesome.scss */
-.icon-plus:before {
-  content: "\f067";
-}
-
-/* line 373, ../../ddbasic/sass/framework/_fontawesome.scss */
-.icon-minus:before {
-  content: "\f068";
-}
-
-/* line 374, ../../ddbasic/sass/framework/_fontawesome.scss */
-.icon-asterisk:before {
-  content: "\f069";
-}
-
-/* line 375, ../../ddbasic/sass/framework/_fontawesome.scss */
-.icon-exclamation-sign:before {
-  content: "\f06a";
-}
-
-/* line 376, ../../ddbasic/sass/framework/_fontawesome.scss */
-.icon-gift:before {
-  content: "\f06b";
-}
-
-/* line 377, ../../ddbasic/sass/framework/_fontawesome.scss */
-.icon-leaf:before {
-  content: "\f06c";
-}
-
-/* line 378, ../../ddbasic/sass/framework/_fontawesome.scss */
-.icon-fire:before {
-  content: "\f06d";
-}
-
-/* line 379, ../../ddbasic/sass/framework/_fontawesome.scss */
-.icon-eye-open:before {
-  content: "\f06e";
-}
-
-/* line 381, ../../ddbasic/sass/framework/_fontawesome.scss */
-.icon-eye-close:before {
-  content: "\f070";
-}
-
-/* line 382, ../../ddbasic/sass/framework/_fontawesome.scss */
-.icon-warning-sign:before {
-  content: "\f071";
-}
-
-/* line 383, ../../ddbasic/sass/framework/_fontawesome.scss */
-.icon-plane:before {
-  content: "\f072";
-}
-
-/* line 384, ../../ddbasic/sass/framework/_fontawesome.scss */
-.icon-calendar:before {
-  content: "\f073";
-}
-
-/* line 385, ../../ddbasic/sass/framework/_fontawesome.scss */
-.icon-random:before {
-  content: "\f074";
-}
-
-/* line 386, ../../ddbasic/sass/framework/_fontawesome.scss */
-.icon-comment:before {
-  content: "\f075";
-}
-
-/* line 387, ../../ddbasic/sass/framework/_fontawesome.scss */
-.icon-magnet:before {
-  content: "\f076";
-}
-
-/* line 388, ../../ddbasic/sass/framework/_fontawesome.scss */
-.icon-chevron-up:before {
-  content: "\f077";
-}
-
-/* line 389, ../../ddbasic/sass/framework/_fontawesome.scss */
-.icon-chevron-down:before {
-  content: "\f078";
-}
-
-/* line 390, ../../ddbasic/sass/framework/_fontawesome.scss */
-.icon-retweet:before {
-  content: "\f079";
-}
-
-/* line 391, ../../ddbasic/sass/framework/_fontawesome.scss */
-.icon-shopping-cart:before {
-  content: "\f07a";
-}
-
-/* line 392, ../../ddbasic/sass/framework/_fontawesome.scss */
-.icon-folder-close:before {
-  content: "\f07b";
-}
-
-/* line 393, ../../ddbasic/sass/framework/_fontawesome.scss */
-.icon-folder-open:before {
-  content: "\f07c";
-}
-
-/* line 394, ../../ddbasic/sass/framework/_fontawesome.scss */
-.icon-resize-vertical:before {
-  content: "\f07d";
-}
-
-/* line 395, ../../ddbasic/sass/framework/_fontawesome.scss */
-.icon-resize-horizontal:before {
-  content: "\f07e";
-}
-
-/* line 397, ../../ddbasic/sass/framework/_fontawesome.scss */
-.icon-bar-chart:before {
-  content: "\f080";
-}
-
-/* line 398, ../../ddbasic/sass/framework/_fontawesome.scss */
-.icon-twitter-sign:before {
-  content: "\f081";
-}
-
-/* line 399, ../../ddbasic/sass/framework/_fontawesome.scss */
-.icon-facebook-sign:before {
-  content: "\f082";
-}
-
-/* line 400, ../../ddbasic/sass/framework/_fontawesome.scss */
-.icon-camera-retro:before {
-  content: "\f083";
-}
-
-/* line 401, ../../ddbasic/sass/framework/_fontawesome.scss */
-.icon-key:before {
-  content: "\f084";
-}
-
-/* line 402, ../../ddbasic/sass/framework/_fontawesome.scss */
-.icon-cogs:before {
-  content: "\f085";
-}
-
-/* line 403, ../../ddbasic/sass/framework/_fontawesome.scss */
-.icon-comments:before {
-  content: "\f086";
-}
-
-/* line 404, ../../ddbasic/sass/framework/_fontawesome.scss */
-.icon-thumbs-up:before {
-  content: "\f087";
-}
-
-/* line 405, ../../ddbasic/sass/framework/_fontawesome.scss */
-.icon-thumbs-down:before {
-  content: "\f088";
-}
-
-/* line 406, ../../ddbasic/sass/framework/_fontawesome.scss */
-.icon-star-half:before {
-  content: "\f089";
-}
-
-/* line 407, ../../ddbasic/sass/framework/_fontawesome.scss */
-.icon-heart-empty:before {
-  content: "\f08a";
-}
-
-/* line 408, ../../ddbasic/sass/framework/_fontawesome.scss */
-.icon-signout:before {
-  content: "\f08b";
-}
-
-/* line 409, ../../ddbasic/sass/framework/_fontawesome.scss */
-.icon-linkedin-sign:before {
-  content: "\f08c";
-}
-
-/* line 410, ../../ddbasic/sass/framework/_fontawesome.scss */
-.icon-pushpin:before {
-  content: "\f08d";
-}
-
-/* line 411, ../../ddbasic/sass/framework/_fontawesome.scss */
-.icon-external-link:before {
-  content: "\f08e";
-}
-
-/* line 413, ../../ddbasic/sass/framework/_fontawesome.scss */
-.icon-signin:before {
-  content: "\f090";
-}
-
-/* line 414, ../../ddbasic/sass/framework/_fontawesome.scss */
-.icon-trophy:before {
-  content: "\f091";
-}
-
-/* line 415, ../../ddbasic/sass/framework/_fontawesome.scss */
-.icon-github-sign:before {
-  content: "\f092";
-}
-
-/* line 416, ../../ddbasic/sass/framework/_fontawesome.scss */
-.icon-upload-alt:before {
-  content: "\f093";
-}
-
-/* line 417, ../../ddbasic/sass/framework/_fontawesome.scss */
-.icon-lemon:before {
-  content: "\f094";
-}
-
-/* line 418, ../../ddbasic/sass/framework/_fontawesome.scss */
-.icon-phone:before {
-  content: "\f095";
-}
-
-/* line 419, ../../ddbasic/sass/framework/_fontawesome.scss */
-.icon-check-empty:before {
-  content: "\f096";
-}
-
-/* line 420, ../../ddbasic/sass/framework/_fontawesome.scss */
-.icon-bookmark-empty:before {
-  content: "\f097";
-}
-
-/* line 421, ../../ddbasic/sass/framework/_fontawesome.scss */
-.icon-phone-sign:before {
-  content: "\f098";
-}
-
-/* line 422, ../../ddbasic/sass/framework/_fontawesome.scss */
-.icon-twitter:before {
-  content: "\f099";
-}
-
-/* line 423, ../../ddbasic/sass/framework/_fontawesome.scss */
-.icon-facebook:before {
-  content: "\f09a";
-}
-
-/* line 424, ../../ddbasic/sass/framework/_fontawesome.scss */
-.icon-github:before {
-  content: "\f09b";
-}
-
-/* line 425, ../../ddbasic/sass/framework/_fontawesome.scss */
-.icon-unlock:before {
-  content: "\f09c";
-}
-
-/* line 426, ../../ddbasic/sass/framework/_fontawesome.scss */
-.icon-credit-card:before {
-  content: "\f09d";
-}
-
-/* line 427, ../../ddbasic/sass/framework/_fontawesome.scss */
-.icon-rss:before {
-  content: "\f09e";
-}
-
-/* line 429, ../../ddbasic/sass/framework/_fontawesome.scss */
-.icon-hdd:before {
-  content: "\f0a0";
-}
-
-/* line 430, ../../ddbasic/sass/framework/_fontawesome.scss */
-.icon-bullhorn:before {
-  content: "\f0a1";
-}
-
-/* line 431, ../../ddbasic/sass/framework/_fontawesome.scss */
-.icon-bell:before {
-  content: "\f0a2";
-}
-
-/* line 432, ../../ddbasic/sass/framework/_fontawesome.scss */
-.icon-certificate:before {
-  content: "\f0a3";
-}
-
-/* line 433, ../../ddbasic/sass/framework/_fontawesome.scss */
-.icon-hand-right:before {
-  content: "\f0a4";
-}
-
-/* line 434, ../../ddbasic/sass/framework/_fontawesome.scss */
-.icon-hand-left:before {
-  content: "\f0a5";
-}
-
-/* line 435, ../../ddbasic/sass/framework/_fontawesome.scss */
-.icon-hand-up:before {
-  content: "\f0a6";
-}
-
-/* line 436, ../../ddbasic/sass/framework/_fontawesome.scss */
-.icon-hand-down:before {
-  content: "\f0a7";
-}
-
-/* line 437, ../../ddbasic/sass/framework/_fontawesome.scss */
-.icon-circle-arrow-left:before {
-  content: "\f0a8";
-}
-
-/* line 438, ../../ddbasic/sass/framework/_fontawesome.scss */
-.icon-circle-arrow-right:before {
-  content: "\f0a9";
-}
-
-/* line 439, ../../ddbasic/sass/framework/_fontawesome.scss */
-.icon-circle-arrow-up:before {
-  content: "\f0aa";
-}
-
-/* line 440, ../../ddbasic/sass/framework/_fontawesome.scss */
-.icon-circle-arrow-down:before {
-  content: "\f0ab";
-}
-
-/* line 441, ../../ddbasic/sass/framework/_fontawesome.scss */
-.icon-globe:before {
-  content: "\f0ac";
-}
-
-/* line 442, ../../ddbasic/sass/framework/_fontawesome.scss */
-.icon-wrench:before {
-  content: "\f0ad";
-}
-
-/* line 443, ../../ddbasic/sass/framework/_fontawesome.scss */
-.icon-tasks:before {
-  content: "\f0ae";
-}
-
-/* line 445, ../../ddbasic/sass/framework/_fontawesome.scss */
-.icon-filter:before {
-  content: "\f0b0";
-}
-
-/* line 446, ../../ddbasic/sass/framework/_fontawesome.scss */
-.icon-briefcase:before {
-  content: "\f0b1";
-}
-
-/* line 447, ../../ddbasic/sass/framework/_fontawesome.scss */
-.icon-fullscreen:before {
-  content: "\f0b2";
-}
-
-/* line 449, ../../ddbasic/sass/framework/_fontawesome.scss */
-.icon-group:before {
-  content: "\f0c0";
-}
-
-/* line 450, ../../ddbasic/sass/framework/_fontawesome.scss */
-.icon-link:before {
-  content: "\f0c1";
-}
-
-/* line 451, ../../ddbasic/sass/framework/_fontawesome.scss */
-.icon-cloud:before {
-  content: "\f0c2";
-}
-
-/* line 452, ../../ddbasic/sass/framework/_fontawesome.scss */
-.icon-beaker:before {
-  content: "\f0c3";
-}
-
-/* line 453, ../../ddbasic/sass/framework/_fontawesome.scss */
-.icon-cut:before {
-  content: "\f0c4";
-}
-
-/* line 454, ../../ddbasic/sass/framework/_fontawesome.scss */
-.icon-copy:before {
-  content: "\f0c5";
-}
-
-/* line 455, ../../ddbasic/sass/framework/_fontawesome.scss */
-.icon-paper-clip:before {
-  content: "\f0c6";
-}
-
-/* line 456, ../../ddbasic/sass/framework/_fontawesome.scss */
-.icon-save:before {
-  content: "\f0c7";
-}
-
-/* line 457, ../../ddbasic/sass/framework/_fontawesome.scss */
-.icon-sign-blank:before {
-  content: "\f0c8";
-}
-
-/* line 458, ../../ddbasic/sass/framework/_fontawesome.scss */
-.icon-reorder:before {
-  content: "\f0c9";
-}
-
-/* line 459, ../../ddbasic/sass/framework/_fontawesome.scss */
-.icon-list-ul:before {
-  content: "\f0ca";
-}
-
-/* line 460, ../../ddbasic/sass/framework/_fontawesome.scss */
-.icon-list-ol:before {
-  content: "\f0cb";
-}
-
-/* line 461, ../../ddbasic/sass/framework/_fontawesome.scss */
-.icon-strikethrough:before {
-  content: "\f0cc";
-}
-
-/* line 462, ../../ddbasic/sass/framework/_fontawesome.scss */
-.icon-underline:before {
-  content: "\f0cd";
-}
-
-/* line 463, ../../ddbasic/sass/framework/_fontawesome.scss */
-.icon-table:before {
-  content: "\f0ce";
-}
-
-/* line 465, ../../ddbasic/sass/framework/_fontawesome.scss */
-.icon-magic:before {
-  content: "\f0d0";
-}
-
-/* line 466, ../../ddbasic/sass/framework/_fontawesome.scss */
-.icon-truck:before {
-  content: "\f0d1";
-}
-
-/* line 467, ../../ddbasic/sass/framework/_fontawesome.scss */
-.icon-pinterest:before {
-  content: "\f0d2";
-}
-
-/* line 468, ../../ddbasic/sass/framework/_fontawesome.scss */
-.icon-pinterest-sign:before {
-  content: "\f0d3";
-}
-
-/* line 469, ../../ddbasic/sass/framework/_fontawesome.scss */
-.icon-google-plus-sign:before {
-  content: "\f0d4";
-}
-
-/* line 470, ../../ddbasic/sass/framework/_fontawesome.scss */
-.icon-google-plus:before {
-  content: "\f0d5";
-}
-
-/* line 471, ../../ddbasic/sass/framework/_fontawesome.scss */
-.icon-money:before {
-  content: "\f0d6";
-}
-
-/* line 472, ../../ddbasic/sass/framework/_fontawesome.scss */
-.icon-caret-down:before {
-  content: "\f0d7";
-}
-
-/* line 473, ../../ddbasic/sass/framework/_fontawesome.scss */
-.icon-caret-up:before {
-  content: "\f0d8";
-}
-
-/* line 474, ../../ddbasic/sass/framework/_fontawesome.scss */
-.icon-caret-left:before {
-  content: "\f0d9";
-}
-
-/* line 475, ../../ddbasic/sass/framework/_fontawesome.scss */
-.icon-caret-right:before {
-  content: "\f0da";
-}
-
-/* line 476, ../../ddbasic/sass/framework/_fontawesome.scss */
-.icon-columns:before {
-  content: "\f0db";
-}
-
-/* line 477, ../../ddbasic/sass/framework/_fontawesome.scss */
-.icon-sort:before {
-  content: "\f0dc";
-}
-
-/* line 478, ../../ddbasic/sass/framework/_fontawesome.scss */
-.icon-sort-down:before {
-  content: "\f0dd";
-}
-
-/* line 479, ../../ddbasic/sass/framework/_fontawesome.scss */
-.icon-sort-up:before {
-  content: "\f0de";
-}
-
-/* line 481, ../../ddbasic/sass/framework/_fontawesome.scss */
-.icon-envelope-alt:before {
-  content: "\f0e0";
-}
-
-/* line 482, ../../ddbasic/sass/framework/_fontawesome.scss */
-.icon-linkedin:before {
-  content: "\f0e1";
-}
-
-/* line 483, ../../ddbasic/sass/framework/_fontawesome.scss */
-.icon-undo:before {
-  content: "\f0e2";
-}
-
-/* line 484, ../../ddbasic/sass/framework/_fontawesome.scss */
-.icon-legal:before {
-  content: "\f0e3";
-}
-
-/* line 485, ../../ddbasic/sass/framework/_fontawesome.scss */
-.icon-dashboard:before {
-  content: "\f0e4";
-}
-
-/* line 486, ../../ddbasic/sass/framework/_fontawesome.scss */
-.icon-comment-alt:before {
-  content: "\f0e5";
-}
-
-/* line 487, ../../ddbasic/sass/framework/_fontawesome.scss */
-.icon-comments-alt:before {
-  content: "\f0e6";
-}
-
-/* line 488, ../../ddbasic/sass/framework/_fontawesome.scss */
-.icon-bolt:before {
-  content: "\f0e7";
-}
-
-/* line 489, ../../ddbasic/sass/framework/_fontawesome.scss */
-.icon-sitemap:before {
-  content: "\f0e8";
-}
-
-/* line 490, ../../ddbasic/sass/framework/_fontawesome.scss */
-.icon-umbrella:before {
-  content: "\f0e9";
-}
-
-/* line 491, ../../ddbasic/sass/framework/_fontawesome.scss */
-.icon-paste:before {
-  content: "\f0ea";
-}
-
-/* line 492, ../../ddbasic/sass/framework/_fontawesome.scss */
-.icon-lightbulb:before {
-  content: "\f0eb";
-}
-
-/* line 493, ../../ddbasic/sass/framework/_fontawesome.scss */
-.icon-exchange:before {
-  content: "\f0ec";
-}
-
-/* line 494, ../../ddbasic/sass/framework/_fontawesome.scss */
-.icon-cloud-download:before {
-  content: "\f0ed";
-}
-
-/* line 495, ../../ddbasic/sass/framework/_fontawesome.scss */
-.icon-cloud-upload:before {
-  content: "\f0ee";
-}
-
-/* line 497, ../../ddbasic/sass/framework/_fontawesome.scss */
-.icon-user-md:before {
-  content: "\f0f0";
-}
-
-/* line 498, ../../ddbasic/sass/framework/_fontawesome.scss */
-.icon-stethoscope:before {
-  content: "\f0f1";
-}
-
-/* line 499, ../../ddbasic/sass/framework/_fontawesome.scss */
-.icon-suitcase:before {
-  content: "\f0f2";
-}
-
-/* line 500, ../../ddbasic/sass/framework/_fontawesome.scss */
-.icon-bell-alt:before {
-  content: "\f0f3";
-}
-
-/* line 501, ../../ddbasic/sass/framework/_fontawesome.scss */
-.icon-coffee:before {
-  content: "\f0f4";
-}
-
-/* line 502, ../../ddbasic/sass/framework/_fontawesome.scss */
-.icon-food:before {
-  content: "\f0f5";
-}
-
-/* line 503, ../../ddbasic/sass/framework/_fontawesome.scss */
-.icon-file-alt:before {
-  content: "\f0f6";
-}
-
-/* line 504, ../../ddbasic/sass/framework/_fontawesome.scss */
-.icon-building:before {
-  content: "\f0f7";
-}
-
-/* line 505, ../../ddbasic/sass/framework/_fontawesome.scss */
-.icon-hospital:before {
-  content: "\f0f8";
-}
-
-/* line 506, ../../ddbasic/sass/framework/_fontawesome.scss */
-.icon-ambulance:before {
-  content: "\f0f9";
-}
-
-/* line 507, ../../ddbasic/sass/framework/_fontawesome.scss */
-.icon-medkit:before {
-  content: "\f0fa";
-}
-
-/* line 508, ../../ddbasic/sass/framework/_fontawesome.scss */
-.icon-fighter-jet:before {
-  content: "\f0fb";
-}
-
-/* line 509, ../../ddbasic/sass/framework/_fontawesome.scss */
-.icon-beer:before {
-  content: "\f0fc";
-}
-
-/* line 510, ../../ddbasic/sass/framework/_fontawesome.scss */
-.icon-h-sign:before {
-  content: "\f0fd";
-}
-
-/* line 511, ../../ddbasic/sass/framework/_fontawesome.scss */
-.icon-plus-sign-alt:before {
-  content: "\f0fe";
-}
-
-/* line 513, ../../ddbasic/sass/framework/_fontawesome.scss */
-.icon-double-angle-left:before {
-  content: "\f100";
-}
-
-/* line 514, ../../ddbasic/sass/framework/_fontawesome.scss */
-.icon-double-angle-right:before {
-  content: "\f101";
-}
-
-/* line 515, ../../ddbasic/sass/framework/_fontawesome.scss */
-.icon-double-angle-up:before {
-  content: "\f102";
-}
-
-/* line 516, ../../ddbasic/sass/framework/_fontawesome.scss */
-.icon-double-angle-down:before {
-  content: "\f103";
-}
-
-/* line 517, ../../ddbasic/sass/framework/_fontawesome.scss */
-.icon-angle-left:before {
-  content: "\f104";
-}
-
-/* line 518, ../../ddbasic/sass/framework/_fontawesome.scss */
-.icon-angle-right:before {
-  content: "\f105";
-}
-
-/* line 519, ../../ddbasic/sass/framework/_fontawesome.scss */
-.icon-angle-up:before {
-  content: "\f106";
-}
-
-/* line 520, ../../ddbasic/sass/framework/_fontawesome.scss */
-.icon-angle-down:before {
-  content: "\f107";
-}
-
-/* line 521, ../../ddbasic/sass/framework/_fontawesome.scss */
-.icon-desktop:before {
-  content: "\f108";
-}
-
-/* line 522, ../../ddbasic/sass/framework/_fontawesome.scss */
-.icon-laptop:before {
-  content: "\f109";
-}
-
-/* line 523, ../../ddbasic/sass/framework/_fontawesome.scss */
-.icon-tablet:before {
-  content: "\f10a";
-}
-
-/* line 524, ../../ddbasic/sass/framework/_fontawesome.scss */
-.icon-mobile-phone:before {
-  content: "\f10b";
-}
-
-/* line 525, ../../ddbasic/sass/framework/_fontawesome.scss */
-.icon-circle-blank:before {
-  content: "\f10c";
-}
-
-/* line 526, ../../ddbasic/sass/framework/_fontawesome.scss */
-.icon-quote-left:before {
-  content: "\f10d";
-}
-
-/* line 527, ../../ddbasic/sass/framework/_fontawesome.scss */
-.icon-quote-right:before {
-  content: "\f10e";
-}
-
-/* line 529, ../../ddbasic/sass/framework/_fontawesome.scss */
-.icon-spinner:before {
-  content: "\f110";
-}
-
-/* line 530, ../../ddbasic/sass/framework/_fontawesome.scss */
-.icon-circle:before {
-  content: "\f111";
-}
-
-/* line 531, ../../ddbasic/sass/framework/_fontawesome.scss */
-.icon-reply:before {
-  content: "\f112";
-}
-
-/* line 532, ../../ddbasic/sass/framework/_fontawesome.scss */
-.icon-github-alt:before {
-  content: "\f113";
-}
-
-/* line 533, ../../ddbasic/sass/framework/_fontawesome.scss */
-.icon-folder-close-alt:before {
-  content: "\f114";
-}
-
-/* line 534, ../../ddbasic/sass/framework/_fontawesome.scss */
-.icon-folder-open-alt:before {
-  content: "\f115";
-}
-
-/* line 6, ../sass/module/_module.scss */
 .search .form-text, .search-field-in-content .form-text, .user .form-text {
-  -webkit-border-radius: 0;
   -moz-border-radius: 0;
+  -webkit-border-radius: 0;
   border-radius: 0;
 }
-/* line 10, ../sass/module/_module.scss */
 .search .form-submit, .search-field-in-content .form-submit, .user .form-submit {
-  -webkit-border-radius: 0;
   -moz-border-radius: 0;
+  -webkit-border-radius: 0;
   border-radius: 0;
 }
 
-/* line 4, ../sass/module/_labels.scss */
 .label a, .news-list .news-label a, .super-heading .field-name-field-ding-news-library .field-item a, .subjects .subject a {
   background-color: #af0000;
   color: #ffffff;
 }
-/* line 8, ../sass/module/_labels.scss */
 .label a:link, .news-list .news-label a:link, .super-heading .field-name-field-ding-news-library .field-item a:link, .subjects .subject a:link, .label a:visited, .news-list .news-label a:visited, .super-heading .field-name-field-ding-news-library .field-item a:visited, .subjects .subject a:visited {
   color: #ffffff;
 }
-/* line 13, ../sass/module/_labels.scss */
 .label a:hover, .news-list .news-label a:hover, .super-heading .field-name-field-ding-news-library .field-item a:hover, .subjects .subject a:hover {
   background-color: #7c0000;
   color: #e6e6e6;
 }
 
-/* line 8, ../sass/module/_news.scss */
 .event-list-leaf .event-list-day {
   background-color: #af0000;
 }
 
-/* line 4, ../sass/module/_search.scss */
 .search-overlay--inner {
-  -webkit-border-radius: 0;
   -moz-border-radius: 0;
+  -webkit-border-radius: 0;
   border-radius: 0;
 }
 
-/* line 44, ../sass/module/_search.scss */
 .pane-ding-facetbrowser a:visited, .pane-search-backends a:visited {
   color: #d20001;
 }
 
-/* line 49, ../sass/module/_search.scss */
 .pane-search-backends {
   display: none !important;
 }
 
-/* line 59, ../sass/module/_search.scss */
 #autocomplete {
-  -webkit-border-radius: 0;
   -moz-border-radius: 0;
+  -webkit-border-radius: 0;
   border-radius: 0;
 }
-/* line 63, ../sass/module/_search.scss */
 #autocomplete li a {
-  -webkit-border-radius: 0;
   -moz-border-radius: 0;
+  -webkit-border-radius: 0;
   border-radius: 0;
 }
 
-/* line 79, ../sass/module/_search.scss */
 .pane-ting-object .collapsible .field-group-format-title:before,
 .pane-ting-object .ding-periodical-fold:before {
   color: #d20001;
 }
 
-/* line 89, ../sass/module/_search.scss */
 .search-result .heading a,
 .pane-ting-collection .ting-collection-inner-wrapper h2 a {
   text-decoration: underline;
 }
-/* line 93, ../sass/module/_search.scss */
 .search-result .heading a:hover,
 .pane-ting-collection .ting-collection-inner-wrapper h2 a:hover {
   text-decoration: none;
 }
 
-/* line 102, ../sass/module/_search.scss */
 .search-overlay--inner {
   background-color: rgba(0, 0, 0, 0.8);
 }
-/* line 106, ../sass/module/_search.scss */
 .search-overlay--inner .cancel a {
   color: #d20001;
 }
 
-/* line 116, ../sass/module/_search.scss */
 .more-info-wrapper a {
   margin-top: 5px;
   margin-right: 10px;
   vertical-align: top;
   text-decoration: none;
 }
-/* line 122, ../sass/module/_search.scss */
 .more-info-wrapper a:before {
   float: left;
   margin-top: -1px;
@@ -2149,7 +345,6 @@ ul.icons li [class*=" icon-"] {
   font-size: 24px;
   font-family: "FontAwesome";
 }
-/* line 131, ../sass/module/_search.scss */
 .more-info-wrapper a.hover {
   color: #006681;
   font-weight: bold;
@@ -2160,7 +355,6 @@ ul.icons li [class*=" icon-"] {
  */
 /* Ting object buttons.
    ========================================================================== */
-/* line 9, ../sass/module/_availability.scss */
 .unavailable,
 .unavailable:link,
 .unavailable:visited,
@@ -2169,7 +363,6 @@ ul.icons li [class*=" icon-"] {
   color: #000000;
 }
 
-/* line 19, ../sass/module/_availability.scss */
 .field-name-ding-entity-buttons .reserve-button, .field-name-ding-entity-buttons .reserve-button.unavailable.reservable,
 .ding-periodical-issues .reserve-button,
 .ding-periodical-issues .reserve-button.unavailable.reservable {
@@ -2184,7 +377,6 @@ ul.icons li [class*=" icon-"] {
   border: 0;
   color: #000000;
 }
-/* line 77, ../sass/framework/_buttons.scss */
 .field-name-ding-entity-buttons .reserve-button:link, .field-name-ding-entity-buttons .reserve-button:visited, .field-name-ding-entity-buttons .reserve-button.unavailable.reservable:link, .field-name-ding-entity-buttons .reserve-button.unavailable.reservable:visited,
 .ding-periodical-issues .reserve-button:link,
 .ding-periodical-issues .reserve-button:visited,
@@ -2192,7 +384,6 @@ ul.icons li [class*=" icon-"] {
 .ding-periodical-issues .reserve-button.unavailable.reservable:visited {
   color: #000000;
 }
-/* line 83, ../sass/framework/_buttons.scss */
 .field-name-ding-entity-buttons .reserve-button:link, .field-name-ding-entity-buttons .reserve-button:visited, .field-name-ding-entity-buttons .reserve-button:focus, .field-name-ding-entity-buttons .reserve-button:hover, .field-name-ding-entity-buttons .reserve-button:active, .field-name-ding-entity-buttons .reserve-button.unavailable.reservable:link, .field-name-ding-entity-buttons .reserve-button.unavailable.reservable:visited, .field-name-ding-entity-buttons .reserve-button.unavailable.reservable:focus, .field-name-ding-entity-buttons .reserve-button.unavailable.reservable:hover, .field-name-ding-entity-buttons .reserve-button.unavailable.reservable:active,
 .ding-periodical-issues .reserve-button:link,
 .ding-periodical-issues .reserve-button:visited,
@@ -2215,7 +406,6 @@ ul.icons li [class*=" icon-"] {
 
 /* Search results availability
    ========================================================================== */
-/* line 31, ../sass/module/_availability.scss */
 .page-search .availability.pending, .page-search .availability.availability.processed, .page-search .availability.availability.available, .page-search .availability.availability.reservable, .page-search .availability.availability.available.reservable, .page-search .availability.availability.unavailable.reservable, .page-search .availability.availability.available.not-reservable, .page-search .availability.availability.unavailable.not-reservable {
   background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjAuNSIgeTE9IjAuMCIgeDI9IjAuNSIgeTI9IjEuMCI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2Y3ZjdmNyIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iI2QxZDFkMSIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA==');
   background-size: 100%;
@@ -2228,11 +418,9 @@ ul.icons li [class*=" icon-"] {
   border: 0;
   color: #000000;
 }
-/* line 77, ../sass/framework/_buttons.scss */
 .page-search .availability.pending:link, .page-search .availability.pending:visited, .page-search .availability.availability.processed:link, .page-search .availability.availability.processed:visited, .page-search .availability.availability.available:link, .page-search .availability.availability.available:visited, .page-search .availability.availability.reservable:link, .page-search .availability.availability.reservable:visited, .page-search .availability.availability.available.reservable:link, .page-search .availability.availability.available.reservable:visited, .page-search .availability.availability.unavailable.reservable:link, .page-search .availability.availability.unavailable.reservable:visited, .page-search .availability.availability.available.not-reservable:link, .page-search .availability.availability.available.not-reservable:visited, .page-search .availability.availability.unavailable.not-reservable:link, .page-search .availability.availability.unavailable.not-reservable:visited {
   color: #000000;
 }
-/* line 83, ../sass/framework/_buttons.scss */
 .page-search .availability.pending:link, .page-search .availability.pending:visited, .page-search .availability.pending:focus, .page-search .availability.pending:hover, .page-search .availability.pending:active, .page-search .availability.availability.processed:link, .page-search .availability.availability.processed:visited, .page-search .availability.availability.processed:focus, .page-search .availability.availability.processed:hover, .page-search .availability.availability.processed:active, .page-search .availability.availability.available:link, .page-search .availability.availability.available:visited, .page-search .availability.availability.available:focus, .page-search .availability.availability.available:hover, .page-search .availability.availability.available:active, .page-search .availability.availability.reservable:link, .page-search .availability.availability.reservable:visited, .page-search .availability.availability.reservable:focus, .page-search .availability.availability.reservable:hover, .page-search .availability.availability.reservable:active, .page-search .availability.availability.available.reservable:link, .page-search .availability.availability.available.reservable:visited, .page-search .availability.availability.available.reservable:focus, .page-search .availability.availability.available.reservable:hover, .page-search .availability.availability.available.reservable:active, .page-search .availability.availability.unavailable.reservable:link, .page-search .availability.availability.unavailable.reservable:visited, .page-search .availability.availability.unavailable.reservable:focus, .page-search .availability.availability.unavailable.reservable:hover, .page-search .availability.availability.unavailable.reservable:active, .page-search .availability.availability.available.not-reservable:link, .page-search .availability.availability.available.not-reservable:visited, .page-search .availability.availability.available.not-reservable:focus, .page-search .availability.availability.available.not-reservable:hover, .page-search .availability.availability.available.not-reservable:active, .page-search .availability.availability.unavailable.not-reservable:link, .page-search .availability.availability.unavailable.not-reservable:visited, .page-search .availability.availability.unavailable.not-reservable:focus, .page-search .availability.availability.unavailable.not-reservable:hover, .page-search .availability.availability.unavailable.not-reservable:active {
   background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjAuNSIgeTE9IjAuMCIgeDI9IjAuNSIgeTI9IjEuMCI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2VhZWFlYSIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iI2M0YzRjNCIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA==');
   background-size: 100%;
@@ -2243,7 +431,6 @@ ul.icons li [class*=" icon-"] {
   background-color: #d1d1d1;
 }
 
-/* line 46, ../sass/module/_availability.scss */
 .page-ting-object .availability.pending, .page-ting-object .availability.availability.processed, .page-ting-object .availability.availability.available, .page-ting-object .availability.availability.reservable, .page-ting-object .availability.availability.available.reservable, .page-ting-object .availability.availability.unavailable.reservable, .page-ting-object .availability.availability.available.not-reservable, .page-ting-object .availability.availability.unavailable.not-reservable,
 .page-ting-collection .availability.pending,
 .page-ting-collection .availability.availability.processed,
@@ -2259,7 +446,6 @@ ul.icons li [class*=" icon-"] {
 
 /* Availability legend
    ========================================================================== */
-/* line 64, ../sass/module/_availability.scss */
 .availability-legend .on-loan,
 .availability-legend .available,
 .availability-legend .unavailable,
@@ -2276,7 +462,6 @@ ul.icons li [class*=" icon-"] {
   color: #000000;
   cursor: default;
 }
-/* line 77, ../sass/framework/_buttons.scss */
 .availability-legend .on-loan:link, .availability-legend .on-loan:visited,
 .availability-legend .available:link,
 .availability-legend .available:visited,
@@ -2286,7 +471,6 @@ ul.icons li [class*=" icon-"] {
 .availability-legend .unreservable:visited {
   color: #000000;
 }
-/* line 83, ../sass/framework/_buttons.scss */
 .availability-legend .on-loan:link, .availability-legend .on-loan:visited, .availability-legend .on-loan:focus, .availability-legend .on-loan:hover, .availability-legend .on-loan:active,
 .availability-legend .available:link,
 .availability-legend .available:visited,
@@ -2311,7 +495,6 @@ ul.icons li [class*=" icon-"] {
   background-image: linear-gradient(#eaeaea, #c4c4c4);
   background-color: #d1d1d1;
 }
-/* line 72, ../sass/module/_availability.scss */
 .availability-legend .on-loan span,
 .availability-legend .available span,
 .availability-legend .unavailable span,
@@ -2319,59 +502,49 @@ ul.icons li [class*=" icon-"] {
   color: #000000;
 }
 
-/* line 5, ../sass/module/_user.scss */
 .header-wrapper .user {
   padding-right: 10px;
   padding-left: 10px;
 }
 
 @media only screen and (max-width: 480px) {
-  /* line 15, ../sass/module/_user.scss */
   .user .form-item-name,
   .user .form-item-pass {
     padding-left: 0;
     padding-right: 0;
   }
 }
-/* line 22, ../sass/module/_user.scss */
 .user .form-item-name {
   padding-left: 0;
 }
-/* line 25, ../sass/module/_user.scss */
 .user .form-item-name i {
   left: 14px;
 }
-/* line 30, ../sass/module/_user.scss */
 .user .form-item-pass {
   padding-right: 0;
 }
 
 /* Variables
    ========================================================================== */
-/* line 12, ../sass/module/_carousel.scss */
 .rs-carousel {
   background-color: transparent;
 }
 
-/* line 16, ../sass/module/_carousel.scss */
-.rs-carousel-inner {
+div.rs-carousel-inner {
   padding: 0;
   min-height: 0;
-  background-color: transparent;
+  background: none;
 }
 
-/* line 22, ../sass/module/_carousel.scss */
 .rs-carousel-title {
   color: #ffffff;
 }
 
-/* line 28, ../sass/module/_carousel.scss */
 .rs-carousel .rs-carousel-items {
   padding: 24px 20px;
   background-color: #333;
 }
 
-/* line 37, ../sass/module/_carousel.scss */
 .svg .rs-carousel-items .rs-carousel-item:hover:before {
   position: absolute;
   top: 50%;
@@ -2387,11 +560,9 @@ ul.icons li [class*=" icon-"] {
   pointer-events: none;
 }
 
-/* line 57, ../sass/module/_carousel.scss */
 .rs-carousel-mask li .rs-carousel-item-title {
   display: none;
 }
-/* line 61, ../sass/module/_carousel.scss */
 .rs-carousel-mask li .rs-carousel-item-type {
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
@@ -2412,12 +583,10 @@ ul.icons li [class*=" icon-"] {
   width: 100%;
   overflow: hidden;
 }
-/* line 79, ../sass/module/_carousel.scss */
 .rs-carousel-mask li .rs-carousel-item-type:hover {
   background-color: #000000;
   text-decoration: none;
 }
-/* line 85, ../sass/module/_carousel.scss */
 .rs-carousel-mask li:hover .rs-carousel-item-title {
   position: absolute;
   top: 0;
@@ -2429,7 +598,6 @@ ul.icons li [class*=" icon-"] {
   font-weight: 500;
 }
 
-/* line 99, ../sass/module/_carousel.scss */
 .rs-carousel-item-image {
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
@@ -2438,7 +606,6 @@ ul.icons li [class*=" icon-"] {
   border: 1px solid #ffffff;
 }
 
-/* line 107, ../sass/module/_carousel.scss */
 .svg .rs-carousel-action-prev,
 .svg .rs-carousel-action-next {
   top: 50%;
@@ -2451,14 +618,12 @@ ul.icons li [class*=" icon-"] {
   white-space: nowrap;
 }
 
-/* line 119, ../sass/module/_carousel.scss */
 .svg .rs-carousel-action-prev {
   left: 30px;
   background-image: url(../images/icon-left.svg);
   background-repeat: no-repeat;
 }
 
-/* line 125, ../sass/module/_carousel.scss */
 .svg .rs-carousel-action-next {
   right: 30px;
   background-image: url(../images/icon-right.svg);
@@ -2468,31 +633,921 @@ ul.icons li [class*=" icon-"] {
 /* Carousel tabs
    ========================================================================== */
 @media only screen and (max-width: 768px) {
-  /* line 135, ../sass/module/_carousel.scss */
   .rs-carousel-tabs {
     padding: 0;
   }
 }
-/* line 140, ../sass/module/_carousel.scss */
 .rs-carousel-tabs .rs-carousel-select-tabs {
-  -webkit-border-radius: 0;
   -moz-border-radius: 0;
+  -webkit-border-radius: 0;
   border-radius: 0;
 }
-/* line 148, ../sass/module/_carousel.scss */
 .rs-carousel-tabs .rs-carousel-list-tabs .rs-carousel-item a {
   margin-right: 0;
   background-color: #252525;
 }
-/* line 152, ../sass/module/_carousel.scss */
 .rs-carousel-tabs .rs-carousel-list-tabs .rs-carousel-item a:hover {
   background-color: #8b0000;
 }
-/* line 158, ../sass/module/_carousel.scss */
 .rs-carousel-tabs .rs-carousel-list-tabs .rs-carousel-item.active a {
   background-color: #8b0000;
 }
-/* line 161, ../sass/module/_carousel.scss */
 .rs-carousel-tabs .rs-carousel-list-tabs .rs-carousel-item.active a:before {
   border-bottom-color: #8b0000;
+}
+
+/**
+ * Variables
+ *
+ * @author magnify
+ */
+/* Spacing variables
+   ========================================================================== */
+/* Zen Grid variables
+   ========================================================================== */
+/* Breakpoints
+   ========================================================================== */
+/* Standard color definitions
+   ========================================================================== */
+/* Font library
+   ========================================================================== */
+/* Typography
+   ========================================================================== */
+/* Font variables
+   ========================================================================== */
+/* Font sizes
+   ========================================================================== */
+/* Labels
+   ========================================================================== */
+/* Navigation
+   ========================================================================== */
+/* Availability
+   ========================================================================== */
+/**
+ * Rules that can be configured is located in this file.
+ *
+ * @author magnify
+ */
+/* Topbar background color */
+.topbar {
+  padding-top: 20px;
+  background-color: #000001;
+}
+
+/* Header background color */
+.header-wrapper {
+  background-color: #00caff;
+}
+
+/* Navigation background color */
+.navigation-wrapper {
+  background-color: #fffffc;
+}
+
+/* Links */
+a {
+  font-weight: 400;
+}
+a:link {
+  color: #d20001;
+  text-decoration: none;
+}
+a:visited {
+  color: #850001;
+  text-decoration: none;
+}
+a:hover {
+  color: #9f0001;
+  text-decoration: underline;
+}
+a:hover i[class^="icon-"] {
+  text-decoration: none;
+}
+a:focus {
+  color: #9f0001;
+}
+
+/* Layout background color */
+.layout-wrapper {
+  background-color: #fffffe;
+}
+
+/* Article background extends */
+/* Footer background color */
+.footer {
+  background-color: #262626;
+}
+
+/* Bottom background color */
+.bottom {
+  background-color: #191919;
+}
+
+/**
+ * Mixins
+ *
+ * @author magnify
+ */
+/* Media query
+   ========================================================================== */
+/* Breakpoints
+   ========================================================================== */
+/* Typography mixins
+ *
+ * These are mixins to allow for use in media queries
+   ========================================================================== */
+/* Availability
+   ========================================================================== */
+/* Pseudo arrow
+ *
+ * Usage example: pseudo-arrow(10px, #000, top, center, $offset: 20px)
+   ========================================================================== */
+/**
+ * Buttons
+ *
+ * @author magnify
+ */
+/* Variables
+   ========================================================================== */
+/* Extends
+   ========================================================================== */
+.button-see-online, .bookmark-button, .field-name-ding-entity-buttons .reserve-button, .field-name-ding-entity-buttons .reserve-button.unavailable.reservable,
+.ding-periodical-issues .reserve-button,
+.ding-periodical-issues .reserve-button.unavailable.reservable, .page-search .availability.pending, .page-search .availability.processed, .page-search .availability.available, .page-search .availability.reservable, .page-search .availability.available.reservable, .page-search .availability.unavailable.reservable, .page-search .availability.available.not-reservable, .page-search .availability.unavailable.not-reservable, .availability-legend .on-loan,
+.availability-legend .available,
+.availability-legend .unavailable,
+.availability-legend .unreservable {
+  -moz-border-radius: 8px;
+  -webkit-border-radius: 8px;
+  border-radius: 8px;
+  display: inline-block;
+  font-size: 100%;
+  padding: 8px 14px;
+  position: relative;
+  box-shadow: 0 0 1px #595959 inset;
+  cursor: pointer;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 100%;
+}
+.button-see-online:focus, .bookmark-button:focus, .field-name-ding-entity-buttons .reserve-button:focus, .field-name-ding-entity-buttons .reserve-button.unavailable.reservable:focus,
+.ding-periodical-issues .reserve-button:focus,
+.ding-periodical-issues .reserve-button.unavailable.reservable:focus, .page-search .availability.pending:focus, .page-search .availability.processed:focus, .page-search .availability.available:focus, .page-search .availability.reservable:focus, .page-search .availability.available.reservable:focus, .page-search .availability.unavailable.reservable:focus, .page-search .availability.available.not-reservable:focus, .page-search .availability.unavailable.not-reservable:focus, .availability-legend .on-loan:focus,
+.availability-legend .available:focus,
+.availability-legend .unavailable:focus,
+.availability-legend .unreservable:focus, .button-see-online:hover, .bookmark-button:hover, .field-name-ding-entity-buttons .reserve-button:hover, .field-name-ding-entity-buttons .reserve-button.unavailable.reservable:hover,
+.ding-periodical-issues .reserve-button:hover,
+.ding-periodical-issues .reserve-button.unavailable.reservable:hover, .page-search .availability.pending:hover, .page-search .availability.processed:hover, .page-search .availability.available:hover, .page-search .availability.reservable:hover, .page-search .availability.available.reservable:hover, .page-search .availability.unavailable.reservable:hover, .page-search .availability.available.not-reservable:hover, .page-search .availability.unavailable.not-reservable:hover, .availability-legend .on-loan:hover,
+.availability-legend .available:hover,
+.availability-legend .unavailable:hover,
+.availability-legend .unreservable:hover, .button-see-online:active, .bookmark-button:active, .field-name-ding-entity-buttons .reserve-button:active, .field-name-ding-entity-buttons .reserve-button.unavailable.reservable:active,
+.ding-periodical-issues .reserve-button:active,
+.ding-periodical-issues .reserve-button.unavailable.reservable:active, .page-search .availability.pending:active, .page-search .availability.processed:active, .page-search .availability.available:active, .page-search .availability.reservable:active, .page-search .availability.available.reservable:active, .page-search .availability.unavailable.reservable:active, .page-search .availability.available.not-reservable:active, .page-search .availability.unavailable.not-reservable:active, .availability-legend .on-loan:active,
+.availability-legend .available:active,
+.availability-legend .unavailable:active,
+.availability-legend .unreservable:active {
+  text-decoration: none;
+}
+.disabled.button-see-online, .disabled.bookmark-button, .field-name-ding-entity-buttons .disabled.reserve-button, .field-name-ding-entity-buttons .disabled.reserve-button.unavailable.reservable,
+.ding-periodical-issues .disabled.reserve-button,
+.ding-periodical-issues .disabled.reserve-button.unavailable.reservable, .page-search .disabled.availability.pending, .page-search .disabled.availability.processed, .page-search .disabled.availability.available, .page-search .disabled.availability.reservable, .page-search .disabled.availability.available.reservable, .page-search .disabled.availability.unavailable.reservable, .page-search .disabled.availability.available.not-reservable, .page-search .disabled.availability.unavailable.not-reservable, .availability-legend .disabled.on-loan,
+.availability-legend .disabled.available,
+.availability-legend .disabled.unavailable,
+.availability-legend .disabled.unreservable, [disabled].button-see-online, [disabled].bookmark-button, .field-name-ding-entity-buttons [disabled].reserve-button, .field-name-ding-entity-buttons [disabled].reserve-button.unavailable.reservable,
+.ding-periodical-issues [disabled].reserve-button,
+.ding-periodical-issues [disabled].reserve-button.unavailable.reservable, .page-search [disabled].availability.pending, .page-search [disabled].availability.processed, .page-search [disabled].availability.available, .page-search [disabled].availability.reservable, .page-search [disabled].availability.available.reservable, .page-search [disabled].availability.unavailable.reservable, .page-search [disabled].availability.available.not-reservable, .page-search [disabled].availability.unavailable.not-reservable, .availability-legend [disabled].on-loan,
+.availability-legend [disabled].available,
+.availability-legend [disabled].unavailable,
+.availability-legend [disabled].unreservable {
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=65);
+  opacity: 0.65;
+  -moz-box-shadow: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  cursor: default;
+}
+
+/* Mixins
+   ========================================================================== */
+/* Default button, we dont use gradiant mixin sin since it's part of color module */
+.button,
+a.button {
+  background-color: #444443;
+  border: 1px;
+  color: #fffff8;
+  line-height: 100%;
+  padding: 8px 14px;
+  -moz-border-radius: 8px;
+  -webkit-border-radius: 8px;
+  border-radius: 8px;
+  background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjAuNSIgeTE9IjAuMCIgeDI9IjAuNSIgeTI9IjEuMCI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzQ0NDQ0MyIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iIzFlMWUxZiIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA==');
+  background-size: 100%;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #444443), color-stop(100%, #1e1e1f));
+  background-image: -moz-linear-gradient(#444443, #1e1e1f);
+  background-image: -webkit-linear-gradient(#444443, #1e1e1f);
+  background-image: linear-gradient(#444443, #1e1e1f);
+}
+.button:link, .button:visited, .button:focus, .button:active,
+a.button:link,
+a.button:visited,
+a.button:focus,
+a.button:active {
+  color: #fffff8;
+  text-decoration: none;
+  background-image: none;
+  background-color: #444443;
+}
+.button:hover,
+a.button:hover {
+  background-color: #1e1e1e;
+  background-image: none;
+}
+
+/* Default button */
+/* Theme button */
+/* Action button */
+.button-see-online, .bookmark-button, .field-name-ding-entity-buttons .reserve-button, .field-name-ding-entity-buttons .reserve-button.unavailable.reservable,
+.ding-periodical-issues .reserve-button,
+.ding-periodical-issues .reserve-button.unavailable.reservable {
+  background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjAuNSIgeTE9IjAuMCIgeDI9IjAuNSIgeTI9IjEuMCI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzYwYTUwMCIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iIzMzNTkwMCIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA==');
+  background-size: 100%;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #60a500), color-stop(100%, #335900));
+  background-image: -moz-linear-gradient(#60a500, #335900);
+  background-image: -webkit-linear-gradient(#60a500, #335900);
+  background-image: linear-gradient(#60a500, #335900);
+  /* Make sure buttons get a background color in IE */
+  background-color: #60a500;
+  border: 0;
+  color: #fff;
+}
+.button-see-online:link, .bookmark-button:link, .field-name-ding-entity-buttons .reserve-button:link, .field-name-ding-entity-buttons .reserve-button.unavailable.reservable:link,
+.ding-periodical-issues .reserve-button:link,
+.ding-periodical-issues .reserve-button.unavailable.reservable:link, .button-see-online:visited, .bookmark-button:visited, .field-name-ding-entity-buttons .reserve-button:visited, .field-name-ding-entity-buttons .reserve-button.unavailable.reservable:visited,
+.ding-periodical-issues .reserve-button:visited,
+.ding-periodical-issues .reserve-button.unavailable.reservable:visited {
+  color: #fff;
+}
+.button-see-online:link, .bookmark-button:link, .field-name-ding-entity-buttons .reserve-button:link, .field-name-ding-entity-buttons .reserve-button.unavailable.reservable:link,
+.ding-periodical-issues .reserve-button:link,
+.ding-periodical-issues .reserve-button.unavailable.reservable:link, .button-see-online:visited, .bookmark-button:visited, .field-name-ding-entity-buttons .reserve-button:visited, .field-name-ding-entity-buttons .reserve-button.unavailable.reservable:visited,
+.ding-periodical-issues .reserve-button:visited,
+.ding-periodical-issues .reserve-button.unavailable.reservable:visited, .button-see-online:focus, .bookmark-button:focus, .field-name-ding-entity-buttons .reserve-button:focus, .field-name-ding-entity-buttons .reserve-button.unavailable.reservable:focus,
+.ding-periodical-issues .reserve-button:focus,
+.ding-periodical-issues .reserve-button.unavailable.reservable:focus, .button-see-online:hover, .bookmark-button:hover, .field-name-ding-entity-buttons .reserve-button:hover, .field-name-ding-entity-buttons .reserve-button.unavailable.reservable:hover,
+.ding-periodical-issues .reserve-button:hover,
+.ding-periodical-issues .reserve-button.unavailable.reservable:hover, .button-see-online:active, .bookmark-button:active, .field-name-ding-entity-buttons .reserve-button:active, .field-name-ding-entity-buttons .reserve-button.unavailable.reservable:active,
+.ding-periodical-issues .reserve-button:active,
+.ding-periodical-issues .reserve-button.unavailable.reservable:active {
+  background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjAuNSIgeTE9IjAuMCIgeDI9IjAuNSIgeTI9IjEuMCI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzUxOGIwMCIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iIzI1M2YwMCIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA==');
+  background-size: 100%;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #518b00), color-stop(100%, #253f00));
+  background-image: -moz-linear-gradient(#518b00, #253f00);
+  background-image: -webkit-linear-gradient(#518b00, #253f00);
+  background-image: linear-gradient(#518b00, #253f00);
+  background-color: #335900;
+}
+
+/* Warning button */
+/* Danger button */
+/* Don't use native buttons on iOS */
+input[type=submit].button,
+button.button {
+  -webkit-appearance: none;
+}
+
+/* Correct FF button padding */
+@-moz-document url-prefix() {
+  button::-moz-focus-inner,
+  input[type="reset"]::-moz-focus-inner,
+  input[type="button"]::-moz-focus-inner,
+  input[type="submit"]::-moz-focus-inner,
+  input[type="file"] > input[type="button"]::-moz-focus-inner {
+    border: none;
+    padding: 0;
+  }
+}
+/**
+ * Rules that can be configured is located in this file.
+ */
+/* Topbar background color */
+.topbar {
+  background-color: #000001;
+}
+
+/* Header background color */
+.header-wrapper {
+  background-color: #00caff;
+}
+
+/* Navigation background color */
+.navigation-wrapper {
+  background-color: #fffffc;
+}
+
+/* Links */
+a:link {
+  color: #d20001;
+}
+a:hover {
+  color: #9f0001;
+}
+a:focus {
+  color: #9f0001;
+}
+
+/* Layout background color */
+.layout-wrapper {
+  background-color: #fffffe;
+}
+
+/* Article background extends */
+/* Footer background color */
+.footer {
+  background-color: #262626;
+}
+
+/* Bottom background color */
+.bottom {
+  background-color: #191919;
+}
+
+/**
+ * Base
+ */
+body {
+  background-color: #efefef;
+  color: rgba(0, 0, 0, 0.7);
+}
+
+a:link {
+  color: rgba(0, 0, 0, 0.7);
+}
+a:visited {
+  color: rgba(0, 0, 0, 0.7);
+}
+a:hover {
+  color: rgba(0, 0, 0, 0.7);
+}
+a:focus {
+  color: rgba(0, 0, 0, 0.7);
+}
+a:active {
+  background-color: transparent;
+  color: rgba(0, 0, 0, 0.7);
+}
+
+/* Fieldset
+   ========================================================================== */
+fieldset {
+  border-color: #efefef;
+}
+
+/**
+ * Buttons
+ */
+/* Mixins
+   ========================================================================== */
+/* Default button, we dont use gradiant mixin sin since it's part of color module */
+.button,
+a.button {
+  background-color: #444443;
+  color: #fffff8;
+  background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjAuNSIgeTE9IjAuMCIgeDI9IjAuNSIgeTI9IjEuMCI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzQ0NDQ0MyIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iIzFlMWUxZiIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA==');
+  background-size: 100%;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #444443), color-stop(100%, #1e1e1f));
+  background-image: -moz-linear-gradient(#444443, #1e1e1f);
+  background-image: -webkit-linear-gradient(#444443, #1e1e1f);
+  background-image: linear-gradient(#444443, #1e1e1f);
+}
+.button:link, .button:visited, .button:focus, .button:active,
+a.button:link,
+a.button:visited,
+a.button:focus,
+a.button:active {
+  color: #fffff8;
+  background-color: #444443;
+}
+.button:hover,
+a.button:hover {
+  background-color: #1e1e1e;
+}
+
+/* Default button */
+/* Theme button */
+/* Action button */
+.button-see-online, .bookmark-button, .field-name-ding-entity-buttons .reserve-button, .field-name-ding-entity-buttons .reserve-button.unavailable.reservable,
+.ding-periodical-issues .reserve-button,
+.ding-periodical-issues .reserve-button.unavailable.reservable {
+  background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjAuNSIgeTE9IjAuMCIgeDI9IjAuNSIgeTI9IjEuMCI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzYwYTUwMCIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iIzMzNTkwMCIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA==');
+  background-size: 100%;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #60a500), color-stop(100%, #335900));
+  background-image: -moz-linear-gradient(#60a500, #335900);
+  background-image: -webkit-linear-gradient(#60a500, #335900);
+  background-image: linear-gradient(#60a500, #335900);
+  /* Make sure buttons get a background color in IE */
+  background-color: #60a500;
+  color: #fff;
+}
+.button-see-online:link, .bookmark-button:link, .field-name-ding-entity-buttons .reserve-button:link, .field-name-ding-entity-buttons .reserve-button.unavailable.reservable:link,
+.ding-periodical-issues .reserve-button:link,
+.ding-periodical-issues .reserve-button.unavailable.reservable:link, .button-see-online:visited, .bookmark-button:visited, .field-name-ding-entity-buttons .reserve-button:visited, .field-name-ding-entity-buttons .reserve-button.unavailable.reservable:visited,
+.ding-periodical-issues .reserve-button:visited,
+.ding-periodical-issues .reserve-button.unavailable.reservable:visited {
+  color: #fff;
+}
+.button-see-online:link, .bookmark-button:link, .field-name-ding-entity-buttons .reserve-button:link, .field-name-ding-entity-buttons .reserve-button.unavailable.reservable:link,
+.ding-periodical-issues .reserve-button:link,
+.ding-periodical-issues .reserve-button.unavailable.reservable:link, .button-see-online:visited, .bookmark-button:visited, .field-name-ding-entity-buttons .reserve-button:visited, .field-name-ding-entity-buttons .reserve-button.unavailable.reservable:visited,
+.ding-periodical-issues .reserve-button:visited,
+.ding-periodical-issues .reserve-button.unavailable.reservable:visited, .button-see-online:focus, .bookmark-button:focus, .field-name-ding-entity-buttons .reserve-button:focus, .field-name-ding-entity-buttons .reserve-button.unavailable.reservable:focus,
+.ding-periodical-issues .reserve-button:focus,
+.ding-periodical-issues .reserve-button.unavailable.reservable:focus, .button-see-online:hover, .bookmark-button:hover, .field-name-ding-entity-buttons .reserve-button:hover, .field-name-ding-entity-buttons .reserve-button.unavailable.reservable:hover,
+.ding-periodical-issues .reserve-button:hover,
+.ding-periodical-issues .reserve-button.unavailable.reservable:hover, .button-see-online:active, .bookmark-button:active, .field-name-ding-entity-buttons .reserve-button:active, .field-name-ding-entity-buttons .reserve-button.unavailable.reservable:active,
+.ding-periodical-issues .reserve-button:active,
+.ding-periodical-issues .reserve-button.unavailable.reservable:active {
+  background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjAuNSIgeTE9IjAuMCIgeDI9IjAuNSIgeTI9IjEuMCI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzUxOGIwMCIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iIzI1M2YwMCIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA==');
+  background-size: 100%;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #518b00), color-stop(100%, #253f00));
+  background-image: -moz-linear-gradient(#518b00, #253f00);
+  background-image: -webkit-linear-gradient(#518b00, #253f00);
+  background-image: linear-gradient(#518b00, #253f00);
+  background-color: #335900;
+}
+
+/* Warning button */
+/* Danger button */
+/**
+ * Labels
+ */
+.label, .news-list .news-label, .super-heading .field-name-field-ding-news-library .field-item, .subjects .subject {
+  /* Make sure it works with a wrapper */
+}
+.label a, .news-list .news-label a, .super-heading .field-name-field-ding-news-library .field-item a, .subjects .subject a {
+  background-color: #af0000;
+  color: #ffffff;
+}
+.label a:link, .news-list .news-label a:link, .super-heading .field-name-field-ding-news-library .field-item a:link, .subjects .subject a:link, .label a:visited, .news-list .news-label a:visited, .super-heading .field-name-field-ding-news-library .field-item a:visited, .subjects .subject a:visited {
+  color: #ffffff;
+}
+.label a:hover, .news-list .news-label a:hover, .super-heading .field-name-field-ding-news-library .field-item a:hover, .subjects .subject a:hover {
+  background-color: #7c0000;
+  color: #e6e6e6;
+}
+
+/**
+ * Navigation
+ */
+/* Topbar menu
+   ========================================================================== */
+.topbar-menu .menu-item {
+  color: #fffffa;
+}
+
+/* Sub menu
+   ========================================================================== */
+.sub-menu > li a {
+  color: #d20001;
+}
+.sub-menu > li a:hover {
+  color: #9f0001;
+}
+.sub-menu li:before {
+  color: #d20001;
+}
+
+/* Footer menus
+   ========================================================================== */
+.footer .pane-title {
+  color: #d20001;
+}
+.footer .menu li:before {
+  color: #d20001;
+}
+.footer .menu li a {
+  color: #d20001;
+}
+
+/* Action Links
+   ========================================================================== */
+.action-links li {
+  color: #d20001;
+}
+.action-links li:before {
+  color: #d20001;
+}
+
+/**
+ * Layout
+ */
+.bottom {
+  background-color: #191919;
+}
+
+.pane-alma-item-list {
+  background-color: #fffffe;
+}
+
+/**
+ * Carousel
+ */
+.rs-carousel-inner {
+  background-color: #333333;
+}
+
+/* Pagination and previous and next buttons
+   ========================================================================== */
+.rs-carousel-action-prev,
+.rs-carousel-action-next {
+  background-color: #00caff;
+}
+
+/* Carousel tabs
+   ========================================================================== */
+.rs-carousel-tabs .rs-carousel-list-tabs .rs-carousel-item a {
+  background-color: #252525;
+}
+.rs-carousel-tabs .rs-carousel-list-tabs .rs-carousel-item a:hover {
+  background-color: #8b0000;
+}
+.rs-carousel-tabs .rs-carousel-list-tabs .rs-carousel-item.active a {
+  background-color: #8b0000;
+}
+.rs-carousel-tabs .rs-carousel-list-tabs .rs-carousel-item.active a:before {
+  border: 10px solid transparent;
+  content: "";
+  height: 0;
+  position: absolute;
+  width: 0;
+  top: -20px;
+  border-bottom-color: #8b0000;
+  margin-left: -10px;
+  left: 50%;
+}
+
+/**
+ * Item list
+ */
+.pane-ding-item-list {
+  background-color: #fffffe;
+}
+
+/**
+ * Item viewer
+ */
+.ding-item-viewer .ui-tabs-nav {
+  background: #191919;
+}
+
+.view-mode-ding-item-viewer-small .image-wrapper {
+  background: #191919;
+}
+
+/**
+ * Ding nodelist
+ */
+.ding_nodelist .event-time .event-day {
+  background: #d20001;
+}
+.ding_nodelist .event-label {
+  background-image: #af0000;
+}
+.ding_nodelist .node, .ding_nodelist.ding_nodelist-horizontal_accordion .data {
+  background-image: #af0000;
+}
+
+.ding_nodelist-carousel .next-prev .prev:hover,
+.ding_nodelist-carousel .next-prev .next:hover {
+  background-color: #d20001;
+}
+.ding_nodelist-carousel .next-prev .prev:after,
+.ding_nodelist-carousel .next-prev .next:after {
+  color: #d20001;
+}
+.ding_nodelist-carousel .pagination .selected {
+  background-color: #d20001;
+}
+
+.ding_nodelist-single {
+  background-color: #fffffe;
+}
+
+.ding_nodelist-slider .next-prev a:hover {
+  background-color: #d20001;
+}
+
+.ding_nodelist-taxonomy .item:nth-child(odd) {
+  background-color: #e8e8e8;
+}
+.ding_nodelist-taxonomy .item:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+/**
+ * Ding ting type search
+ */
+.pane-easyddb-search-ext-search-ext {
+  background-color: #fffffe;
+}
+
+/**
+ * Event styling
+ */
+/* Event list
+   ========================================================================== */
+.event-list .event-list-item:nth-child(odd) {
+  background-color: #e8e8e8;
+}
+.event-list .event-list-item:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+/**
+ * Groups
+ */
+/* Groups lists
+   ========================================================================== */
+.groups-list .groups-list-item {
+  background-color: #ebebeb;
+}
+.groups-list .groups-list-item:nth-child(odd) {
+  background-color: #e8e8e8;
+}
+.groups-list .groups-list-item:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+/**
+ * News
+ */
+.news-list .news-list-item {
+  background-color: #ebebeb;
+}
+.news-list .news-list-item:nth-child(odd) {
+  background-color: #e8e8e8;
+}
+.news-list .news-list-item:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+/**
+ * Opening hours
+ */
+.opening-hours-week .days .odd {
+  background-color: #e8e8e8;
+}
+.opening-hours-week .days .even {
+  background-color: #f2f2f2;
+}
+
+.pane-ding-library-opening-hours-ding-library-opened-today {
+  background-color: #fffffe;
+}
+
+/**
+ * Search
+ */
+.pane-ding-facetbrowser a:visited, .pane-search-backends a:visited {
+  color: #d20001;
+}
+
+.pane-ting-search-records-per-page a {
+  border-right-color: #9f0001;
+}
+.pane-ting-search-records-per-page a.selected {
+  color: #9f0001;
+}
+
+.pane-ding-toggle-format-toggle #ding-toggle-format.ding-toggle-format-short:before,
+.pane-ding-toggle-format-toggle #ding-toggle-format.ding-toggle-format-long:after {
+  color: #d20001;
+}
+
+/* Search autocomplete
+   ========================================================================== */
+#autocomplete li a {
+  color: rgba(0, 0, 0, 0.7);
+}
+
+/**
+ * Staff
+ */
+.staff-list .staff-list-item:nth-child(odd),
+.staff-list-all .staff-list-item:nth-child(odd) {
+  background-color: #e8e8e8;
+}
+.staff-list .staff-list-item:nth-child(even),
+.staff-list-all .staff-list-item:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+/**
+ * User
+ */
+.user-status-loan,
+.user-status-reservation {
+  color: #d20001;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  height: 100%;
+  color: rgba(0, 0, 0, 0.7);
+}
+@media only screen and (max-width: 768px) {
+  body {
+    background-color: #b4b4b4;
+  }
+}
+@media only screen and (min-width: 769px) {
+  body {
+    background-image: url("../images/bg.png");
+  }
+}
+
+a:link {
+  color: #d20001;
+}
+a:visited {
+  color: #850001;
+}
+a:hover, a:focus {
+  color: #9f0001;
+}
+
+.logo {
+  margin-bottom: 0;
+  min-height: 44px;
+}
+.logo a {
+  display: block;
+  width: 100%;
+}
+.logo object {
+  pointer-events: none;
+}
+
+::-moz-selection {
+  color: #ffffff;
+  background: #580000;
+}
+
+::-webkit-selection {
+  color: #ffffff;
+  background: #580000;
+}
+
+::selection {
+  color: #ffffff;
+  background: #580000;
+}
+
+.topbar,
+.header-wrapper {
+  background: none;
+}
+
+.site-header {
+  padding-top: 20px;
+}
+
+.header-wrapper {
+  overflow: hidden;
+}
+
+.topbar {
+  padding-top: 0;
+}
+
+.navigation-wrapper {
+  margin-top: 15px;
+  background-color: #252525;
+}
+
+.menu-item {
+  color: #ffffff;
+}
+.menu-item:hover, .menu-item.active {
+  color: #9f0001;
+}
+
+.bottom {
+  background-color: transparent;
+}
+.bottom,
+.bottom a {
+  color: #000000;
+  font-weight: 700;
+  font-size: 110%;
+}
+
+.footer {
+  background-color: #fff;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0 auto;
+  padding: 10px;
+  max-width: 1180px;
+}
+@media only screen and (max-width: 1210px) {
+  .footer {
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+}
+
+.page-ting-object .field-name-ting-details-subjects {
+  display: none !important;
+}
+
+.subject-hierarchy-searchfield {
+  display: none;
+}
+
+.ui-icon-closethick {
+  margin-top: -16px !important;
+}
+
+.topbar-menu .topbar-link-user-account.menu-item {
+  color: #3399cc;
+}
+
+/* Alma reserve buttons
+   ========================================================================== */
+.ding-item-list-item .item-details .reserve-button:link,
+.alma-item-list .item-details .reserve-button:link {
+  background: none;
+  border: none;
+  border-radius: none;
+  box-shadow: none;
+  color: #d20001;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+.ding-item-list-item .item-details .reserve-button:hover,
+.alma-item-list .item-details .reserve-button:link:hover {
+  color: #850001;
+  text-decoration: none;
+}
+
+.pane-alma-item-list {
+  background-color: #ffffff;
+  padding: 10px;
+}
+
+.alma-item-list-item:first-child {
+  border: none;
+  padding-top: 0;
+}
+
+.alma-item-list-item {
+  border-top: 1px dashed #d5d5d5;
+  padding-top: 10px;
+}
+
+/* Action button */
+.button-see-online, .bookmark-button, .field-name-ding-entity-buttons .reserve-button, .field-name-ding-entity-buttons .reserve-button.unavailable.reservable,
+.ding-periodical-issues .reserve-button,
+.ding-periodical-issues .reserve-button.unavailable.reservable {
+  background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjAuNSIgeTE9IjAuMCIgeDI9IjAuNSIgeTI9IjEuMCI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2M0YzRjNCIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iIzllOWU5ZSIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA==');
+  background-size: 100%;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #c4c4c4), color-stop(100%, #9e9e9e));
+  background-image: -moz-linear-gradient(#c4c4c4, #9e9e9e);
+  background-image: -webkit-linear-gradient(#c4c4c4, #9e9e9e);
+  background-image: linear-gradient(#c4c4c4, #9e9e9e);
+  /* Make sure buttons get a background color in IE */
+  background-color: #c4c4c4;
+  color: #000000;
+}
+.button-see-online:link, .bookmark-button:link, .field-name-ding-entity-buttons .reserve-button:link, .field-name-ding-entity-buttons .reserve-button.unavailable.reservable:link,
+.ding-periodical-issues .reserve-button:link,
+.ding-periodical-issues .reserve-button.unavailable.reservable:link, .button-see-online:visited, .bookmark-button:visited, .field-name-ding-entity-buttons .reserve-button:visited, .field-name-ding-entity-buttons .reserve-button.unavailable.reservable:visited,
+.ding-periodical-issues .reserve-button:visited,
+.ding-periodical-issues .reserve-button.unavailable.reservable:visited {
+  color: #000000;
+}
+.button-see-online:link, .bookmark-button:link, .field-name-ding-entity-buttons .reserve-button:link, .field-name-ding-entity-buttons .reserve-button.unavailable.reservable:link,
+.ding-periodical-issues .reserve-button:link,
+.ding-periodical-issues .reserve-button.unavailable.reservable:link, .button-see-online:visited, .bookmark-button:visited, .field-name-ding-entity-buttons .reserve-button:visited, .field-name-ding-entity-buttons .reserve-button.unavailable.reservable:visited,
+.ding-periodical-issues .reserve-button:visited,
+.ding-periodical-issues .reserve-button.unavailable.reservable:visited, .button-see-online:focus, .bookmark-button:focus, .field-name-ding-entity-buttons .reserve-button:focus, .field-name-ding-entity-buttons .reserve-button.unavailable.reservable:focus,
+.ding-periodical-issues .reserve-button:focus,
+.ding-periodical-issues .reserve-button.unavailable.reservable:focus, .button-see-online:hover, .bookmark-button:hover, .field-name-ding-entity-buttons .reserve-button:hover, .field-name-ding-entity-buttons .reserve-button.unavailable.reservable:hover,
+.ding-periodical-issues .reserve-button:hover,
+.ding-periodical-issues .reserve-button.unavailable.reservable:hover, .button-see-online:active, .bookmark-button:active, .field-name-ding-entity-buttons .reserve-button:active, .field-name-ding-entity-buttons .reserve-button.unavailable.reservable:active,
+.ding-periodical-issues .reserve-button:active,
+.ding-periodical-issues .reserve-button.unavailable.reservable:active {
+  background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjAuNSIgeTE9IjAuMCIgeDI9IjAuNSIgeTI9IjEuMCI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2I3YjdiNyIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iIzkxOTE5MSIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA==');
+  background-size: 100%;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #b7b7b7), color-stop(100%, #919191));
+  background-image: -moz-linear-gradient(#b7b7b7, #919191);
+  background-image: -webkit-linear-gradient(#b7b7b7, #919191);
+  background-image: linear-gradient(#b7b7b7, #919191);
+  background-color: #9e9e9e;
 }
