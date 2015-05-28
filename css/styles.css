@@ -1349,6 +1349,20 @@ a.button:hover {
   color: #d20001;
 }
 
+/**
+ * Ding search related
+ *
+ * @author ac
+ */
+.view-ting-search-related-content {
+  background-color: #e8e8e8;
+}
+.view-ting-search-related-content .views-field-title a:link,
+.view-ting-search-related-content .views-field-title a:hover,
+.view-ting-search-related-content .views-field-title a:visited {
+  color: rgba(0, 0, 0, 0.7);
+}
+
 html {
   height: 100%;
 }
