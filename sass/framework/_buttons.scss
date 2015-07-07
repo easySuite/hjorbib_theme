@@ -10,8 +10,8 @@
 
 $button-border:                   0;
 $button-box-shadow:               0 0 1px lighten($black, 35%) inset;
-$button-border-radius:            8px;
-$button-padding:                  8px 14px;
+$button-border-radius:            3px;
+$button-padding:                  5px;
 
 $button-default-bg:               #444;
 $button-default-color:            #fff;
@@ -30,11 +30,11 @@ $button-danger-color:             $black;
    ========================================================================== */
 
 %button {
-  @include border-radius($button-border-radius);
+  @include border-radius($button-border-radius !important);
 
   font-size: 100%;
-  padding: $button-padding;
   position: relative;
+  padding: $button-padding !important;
 
   box-shadow: $button-box-shadow;
   cursor: pointer;

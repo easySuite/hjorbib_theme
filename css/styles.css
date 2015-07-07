@@ -95,12 +95,12 @@
 .availability-legend .available,
 .availability-legend .unavailable,
 .availability-legend .unreservable {
-  -moz-border-radius: 8px;
-  -webkit-border-radius: 8px;
-  border-radius: 8px;
+  -moz-border-radius: 3px !important;
+  -webkit-border-radius: 3px;
+  border-radius: 3px !important;
   font-size: 100%;
-  padding: 8px 14px;
   position: relative;
+  padding: 5px !important;
   box-shadow: 0 0 1px #595959 inset;
   cursor: pointer;
   text-align: center;
@@ -705,9 +705,6 @@ div.rs-carousel-inner {
 }
 
 /* Links */
-a {
-  font-weight: 400;
-}
 a:link {
   color: #d20001;
   text-decoration: none;
