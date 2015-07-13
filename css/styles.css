@@ -705,9 +705,6 @@ div.rs-carousel-inner {
 }
 
 /* Links */
-a {
-  font-weight: 400;
-}
 a:link {
   color: #d20001;
   text-decoration: none;
@@ -1386,7 +1383,7 @@ a:link {
   color: #d20001;
 }
 a:visited {
-  color: #850001;
+  color: #d20001;
 }
 a:hover, a:focus {
   color: #9f0001;
@@ -1564,4 +1561,21 @@ a:hover, a:focus {
   background-image: -webkit-linear-gradient(#b7b7b7, #919191);
   background-image: linear-gradient(#b7b7b7, #919191);
   background-color: #9e9e9e;
+}
+
+.label a, .news-list .news-label a, .super-heading .field-name-field-ding-news-library .field-item a, .subjects .subject a,
+.view-node-search-result .list-item .field-type-taxonomy-term-reference a a,
+.ting-reference-reverse-list .list-item .field-type-taxonomy-term-reference a a,
+.subjects .subject a,
+.news-list .news-label a,
+.super-heading .field-name-field-ding-news-library .field-item a {
+  border-radius: 3px;
+  padding: 5px;
+  line-height: 20px;
+}
+
+.page-search .availability.pending, .page-search .availability.processed, .page-search .availability.available, .page-search .availability.reservable, .page-search .availability.available.reservable, .page-search .availability.unavailable.reservable, .page-search .availability.available.not-reservable, .page-search .availability.unavailable.not-reservable {
+  border-radius: 3px;
+  padding: 5px;
+  line-height: 20px;
 }
