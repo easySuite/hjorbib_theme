@@ -28,10 +28,10 @@
   Drupal.behaviors.expandSection = {
     attach: function (context) {
       var objectPage = $('.page-ting-object', context),
-          expandedSection = objectPage.find('.group-holdings-available, .group-periodical-issues').find('.field-group-format-title');
+          expandedSection = objectPage.find('.group-holdings-available, .group-periodical-issues, .group-material-details').find('.field-group-format-title');
 
       if (objectPage.length !== 0) {
-        expandedSection.trigger('click');
+        jQuery(expandedSection)[0].click();
       }
     }
   };
