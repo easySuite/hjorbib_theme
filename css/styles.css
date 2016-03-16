@@ -524,6 +524,24 @@ textarea:focus {
   padding-right: 0;
 }
 
+.search label, .search-field-in-content label,
+.search-field-in-content label,
+.user label {
+  display: none;
+}
+
+header .search .form-actions, header .search-field-in-content .form-actions,
+header .search-field-in-content .form-actions,
+.pane-user-login .form-actions {
+  top: 0;
+}
+
+.search .form-submit, .search-field-in-content .form-submit,
+.search-field-in-content .form-submit,
+.user .form-submit {
+  margin-top: 0;
+}
+
 /* Variables
    ========================================================================== */
 .rs-carousel {
