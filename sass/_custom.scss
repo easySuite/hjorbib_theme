@@ -68,13 +68,16 @@ a {
 // Layout styles
 //==========================================================================
 
-.topbar,
+.topbar {
+  background: #000;
+}
+
 .header-wrapper {
-  background: none;
+  background: #b10000;
 }
 
 .site-header {
-  padding-top: 20px;
+  padding-top: 0;
 }
 
 .header-wrapper {
@@ -85,12 +88,15 @@ a {
   padding-top: 0;
 }
 
+.topbar-inner {
+  padding-top: 20px;
+}
 
 // Navigation
 
 .navigation-wrapper {
-  margin-top: 15px;
-  background-color: $navigation-wrapper;
+  margin-top: 0;
+  background-color: #fff;
 }
 
 .menu-item {
