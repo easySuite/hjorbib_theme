@@ -524,21 +524,19 @@ textarea:focus {
   padding-right: 0;
 }
 
-.search label, .search-field-in-content label,
-.search-field-in-content label,
-.user label {
+.site-header .search label, .site-header .search-field-in-content label,
+.site-header .search-field-in-content label,
+.site-header .user label {
   display: none;
 }
-
-header .search .form-actions, header .search-field-in-content .form-actions,
-header .search-field-in-content .form-actions,
-.pane-user-login .form-actions {
+.site-header .search .form-actions, .site-header .search-field-in-content .form-actions,
+.site-header .search-field-in-content .form-actions,
+.site-header .pane-user-login .form-actions {
   top: 0;
 }
-
-.search .form-submit, .search-field-in-content .form-submit,
-.search-field-in-content .form-submit,
-.user .form-submit {
+.site-header .search .form-submit, .site-header .search-field-in-content .form-submit,
+.site-header .search-field-in-content .form-submit,
+.site-header .user .form-submit {
   margin-top: 0;
 }
 
