@@ -35,8 +35,8 @@
 .main-menu .menu-item,
 .secondary-menu .menu-item,
 .system-user-menu .menu-item {
-  color: #ffffff;
-  font-weight: 700;
+  color: #000;
+  font-weight: 300;
 }
 .main-menu .menu-item:hover, .main-menu .menu-item.active,
 .secondary-menu .menu-item:hover,
@@ -690,7 +690,6 @@ div.rs-carousel-inner {
  */
 /* Topbar background color */
 .topbar {
-  padding-top: 20px;
   background-color: #000001;
 }
 
@@ -705,12 +704,15 @@ div.rs-carousel-inner {
 }
 
 /* Links */
+a {
+  font-weight: normal;
+}
 a:link {
   color: #d20001;
   text-decoration: none;
 }
 a:visited {
-  color: #850001;
+  color: #860001;
   text-decoration: none;
 }
 a:hover {
@@ -837,12 +839,11 @@ a.button {
   -moz-border-radius: 8px;
   -webkit-border-radius: 8px;
   border-radius: 8px;
-  background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjAuNSIgeTE9IjAuMCIgeDI9IjAuNSIgeTI9IjEuMCI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzQ0NDQ0MyIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iIzFlMWUxZiIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA==');
-  background-size: 100%;
-  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #444443), color-stop(100%, #1e1e1f));
-  background-image: -moz-linear-gradient(#444443, #1e1e1f);
-  background-image: -webkit-linear-gradient(#444443, #1e1e1f);
-  background-image: linear-gradient(#444443, #1e1e1f);
+  background: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjAuNSIgeTE9IjAuMCIgeDI9IjAuNSIgeTI9IjEuMCI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzQ0NDQ0MyIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iIzFlMWUxZiIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA==');
+  background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #444443), color-stop(100%, #1e1e1f));
+  background: -moz-linear-gradient(#444443, #1e1e1f);
+  background: -webkit-linear-gradient(#444443, #1e1e1f);
+  background: linear-gradient(#444443, #1e1e1f);
 }
 .button:link, .button:visited, .button:focus, .button:active,
 a.button:link,
@@ -866,12 +867,11 @@ a.button:hover {
 .button-see-online, .bookmark-button, .field-name-ding-entity-buttons .reserve-button, .field-name-ding-entity-buttons .reserve-button.unavailable.reservable,
 .ding-periodical-issues .reserve-button,
 .ding-periodical-issues .reserve-button.unavailable.reservable {
-  background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjAuNSIgeTE9IjAuMCIgeDI9IjAuNSIgeTI9IjEuMCI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzYwYTUwMCIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iIzMzNTkwMCIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA==');
-  background-size: 100%;
-  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #60a500), color-stop(100%, #335900));
-  background-image: -moz-linear-gradient(#60a500, #335900);
-  background-image: -webkit-linear-gradient(#60a500, #335900);
-  background-image: linear-gradient(#60a500, #335900);
+  background: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjAuNSIgeTE9IjAuMCIgeDI9IjAuNSIgeTI9IjEuMCI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzYwYTUwMCIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iIzMzNTkwMCIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA==');
+  background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #60a500), color-stop(100%, #335900));
+  background: -moz-linear-gradient(#60a500, #335900);
+  background: -webkit-linear-gradient(#60a500, #335900);
+  background: linear-gradient(#60a500, #335900);
   /* Make sure buttons get a background color in IE */
   background-color: #60a500;
   border: 0;
@@ -895,12 +895,11 @@ a.button:hover {
 .ding-periodical-issues .reserve-button.unavailable.reservable:hover, .button-see-online:active, .bookmark-button:active, .field-name-ding-entity-buttons .reserve-button:active, .field-name-ding-entity-buttons .reserve-button.unavailable.reservable:active,
 .ding-periodical-issues .reserve-button:active,
 .ding-periodical-issues .reserve-button.unavailable.reservable:active {
-  background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjAuNSIgeTE9IjAuMCIgeDI9IjAuNSIgeTI9IjEuMCI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzUxOGIwMCIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iIzI1M2YwMCIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA==');
-  background-size: 100%;
-  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #518b00), color-stop(100%, #253f00));
-  background-image: -moz-linear-gradient(#518b00, #253f00);
-  background-image: -webkit-linear-gradient(#518b00, #253f00);
-  background-image: linear-gradient(#518b00, #253f00);
+  background: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjAuNSIgeTE9IjAuMCIgeDI9IjAuNSIgeTI9IjEuMCI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzUxOGMwMCIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iIzI1M2YwMCIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA==');
+  background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #518c00), color-stop(100%, #253f00));
+  background: -moz-linear-gradient(#518c00, #253f00);
+  background: -webkit-linear-gradient(#518c00, #253f00);
+  background: linear-gradient(#518c00, #253f00);
   background-color: #335900;
 }
 
@@ -1063,12 +1062,12 @@ a.button:hover {
 .ding-periodical-issues .reserve-button.unavailable.reservable:hover, .button-see-online:active, .bookmark-button:active, .field-name-ding-entity-buttons .reserve-button:active, .field-name-ding-entity-buttons .reserve-button.unavailable.reservable:active,
 .ding-periodical-issues .reserve-button:active,
 .ding-periodical-issues .reserve-button.unavailable.reservable:active {
-  background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjAuNSIgeTE9IjAuMCIgeDI9IjAuNSIgeTI9IjEuMCI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzUxOGIwMCIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iIzI1M2YwMCIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA==');
+  background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjAuNSIgeTE9IjAuMCIgeDI9IjAuNSIgeTI9IjEuMCI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzUxOGMwMCIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iIzI1M2YwMCIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA==');
   background-size: 100%;
-  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #518b00), color-stop(100%, #253f00));
-  background-image: -moz-linear-gradient(#518b00, #253f00);
-  background-image: -webkit-linear-gradient(#518b00, #253f00);
-  background-image: linear-gradient(#518b00, #253f00);
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #518c00), color-stop(100%, #253f00));
+  background-image: -moz-linear-gradient(#518c00, #253f00);
+  background-image: -webkit-linear-gradient(#518c00, #253f00);
+  background-image: linear-gradient(#518c00, #253f00);
   background-color: #335900;
 }
 
@@ -1416,13 +1415,16 @@ a:hover, a:focus {
   background: #580000;
 }
 
-.topbar,
+.topbar {
+  background: #000;
+}
+
 .header-wrapper {
-  background: none;
+  background: #b10000;
 }
 
 .site-header {
-  padding-top: 20px;
+  padding-top: 0;
 }
 
 .header-wrapper {
@@ -1433,9 +1435,13 @@ a:hover, a:focus {
   padding-top: 0;
 }
 
+.topbar-inner {
+  padding-top: 20px;
+}
+
 .navigation-wrapper {
-  margin-top: 15px;
-  background-color: #252525;
+  margin-top: 0;
+  background-color: #fff;
 }
 
 .menu-item {
@@ -1503,7 +1509,7 @@ a:hover, a:focus {
 
 .ding-item-list-item .item-details .reserve-button:hover,
 .alma-item-list .item-details .reserve-button:link:hover {
-  color: #850001;
+  color: #860001;
   text-decoration: none;
 }
 
