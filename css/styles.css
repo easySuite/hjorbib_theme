@@ -524,6 +524,22 @@ textarea:focus {
   padding-right: 0;
 }
 
+.site-header .search label, .site-header .search-field-in-content label,
+.site-header .search-field-in-content label,
+.site-header .user label {
+  display: none;
+}
+.site-header .search .form-actions, .site-header .search-field-in-content .form-actions,
+.site-header .search-field-in-content .form-actions,
+.site-header .pane-user-login .form-actions {
+  top: 0;
+}
+.site-header .search .form-submit, .site-header .search-field-in-content .form-submit,
+.site-header .search-field-in-content .form-submit,
+.site-header .user .form-submit {
+  margin-top: 0;
+}
+
 /* Variables
    ========================================================================== */
 .rs-carousel {
