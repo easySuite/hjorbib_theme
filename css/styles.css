@@ -1601,3 +1601,23 @@ a:hover, a:focus {
   padding: 5px;
   line-height: 20px;
 }
+
+.alma-item-list .item-details .item-loan,
+.alma-item-list .item-details .item-loan a,
+.ding-item-list-item .item-details .item-loan,
+.ding-item-list-item .item-details .item-loan a {
+  background: transparent;
+  border: none;
+  border-radius: 0;
+  box-shadow: none;
+  color: #d20001;
+  display: inline;
+  margin-right: 10px;
+  padding: 0;
+}
+.alma-item-list .item-details .item-loan:hover,
+.alma-item-list .item-details .item-loan a:hover,
+.ding-item-list-item .item-details .item-loan:hover,
+.ding-item-list-item .item-details .item-loan a:hover {
+  color: #9f0001;
+}
