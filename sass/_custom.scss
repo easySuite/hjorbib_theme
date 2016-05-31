@@ -238,3 +238,16 @@ a {
     color: $link-color-hover;
   }
 }
+
+.ding-item-list-item .item-details .item-loan {
+  display: block;
+
+  span.ext {
+    display: none;
+  }
+
+  a {
+    margin-left: 0;
+    text-align: left;
+  }
+}

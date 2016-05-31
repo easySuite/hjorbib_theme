@@ -1621,3 +1621,14 @@ a:hover, a:focus {
 .ding-item-list-item .item-details .item-loan a:hover {
   color: #9f0001;
 }
+
+.ding-item-list-item .item-details .item-loan {
+  display: block;
+}
+.ding-item-list-item .item-details .item-loan span.ext {
+  display: none;
+}
+.ding-item-list-item .item-details .item-loan a {
+  margin-left: 0;
+  text-align: left;
+}
