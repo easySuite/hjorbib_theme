@@ -97,6 +97,10 @@ a {
 .navigation-wrapper {
   margin-top: 0;
   background-color: #fff;
+  
+  @include small-medium() {
+    background-color: #333;
+  }
 }
 
 .menu-item {
