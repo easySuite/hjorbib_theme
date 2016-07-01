@@ -80,10 +80,6 @@ a {
   padding-top: 0;
 }
 
-.header-wrapper {
-  overflow: hidden;
-}
-
 .topbar {
   padding-top: 0;
 }
@@ -97,7 +93,7 @@ a {
 .navigation-wrapper {
   margin-top: 0;
   background-color: #fff;
-  
+
   @include small-medium() {
     background-color: #333;
   }
