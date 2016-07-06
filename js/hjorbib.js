@@ -31,7 +31,7 @@
           expandedSection = objectPage.find('.group-periodical-issues, .group-material-details').find('.field-group-format-title');
 
       if (objectPage.length !== 0) {
-        jQuery(expandedSection)[0].click();
+        jQuery(expandedSection).click();
       }
     }
   };
