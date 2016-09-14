@@ -672,6 +672,22 @@ div.rs-carousel-inner {
   border-bottom-color: #8b0000;
 }
 
+.slick-track .ting-search-carousel-item .field-type-ting-title {
+  background: none;
+  height: 100%;
+}
+.slick-track .ting-search-carousel-item .field-type-ting-title div, .slick-track .ting-search-carousel-item .field-type-ting-title h2 {
+  height: 100%;
+}
+.slick-track .ting-search-carousel-item .field-type-ting-title a {
+  display: block;
+  text-indent: -9000px;
+  height: 100%;
+}
+.slick-track .ting-search-carousel-item:hover .field-type-ting-title {
+  background: rgba(0, 0, 0, 0.25);
+}
+
 /**
  * Variables
  *
