@@ -163,3 +163,26 @@ div.rs-carousel-inner {
     }
   }
 }
+
+.slick-track .ting-search-carousel-item {
+  .field-type-ting-title {
+    background: none;
+    height: 100%;
+
+    div, h2 {
+      height: 100%;
+    }
+
+    a {
+      display: block;
+      text-indent: -9000px;
+      height: 100%;
+    }
+  }
+
+  &:hover {
+    .field-type-ting-title {
+      background: rgba(0, 0, 0, 0.25);
+    }
+  }
+}
