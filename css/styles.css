@@ -681,6 +681,7 @@ div.rs-carousel-inner {
 }
 .slick-track .ting-search-carousel-item .field-type-ting-title a {
   display: block;
+  direction: rtl;
   text-indent: -9000px;
   height: 100%;
 }
