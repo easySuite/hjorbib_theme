@@ -39,10 +39,16 @@
     display: none;
   }
 
-  .search .form-actions,
-  .search-field-in-content .form-actions,
-  .pane-user-login .form-actions {
+  .search .form-actions {
     top: 0;
+  }
+
+  .search-field-in-content .form-actions {
+    top: 30px;
+  }
+
+  .pane-user-login .form-actions input[value="Log in"] {
+    top: -29px;
   }
 
   .search .form-submit,
