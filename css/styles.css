@@ -529,14 +529,12 @@ textarea:focus {
 .site-header .user label {
   display: none;
 }
-.site-header .search .form-actions, .site-header .search-field-in-content .form-actions {
+.site-header .search .form-actions, .site-header .search-field-in-content .form-actions,
+.site-header .pane-user-login .form-actions {
   top: 0;
 }
 .site-header .search-field-in-content .form-actions {
   top: 30px;
-}
-.site-header .pane-user-login .form-actions input[value="Log in"] {
-  top: -29px;
 }
 .site-header .search .form-submit, .site-header .search-field-in-content .form-submit,
 .site-header .search-field-in-content .form-submit,
