@@ -814,7 +814,7 @@ a:focus {
   -moz-border-radius: 8px;
   -webkit-border-radius: 8px;
   border-radius: 8px;
-  display: inline-block;
+/*  display: inline-block; */
   font-size: 100%;
   padding: 8px 14px;
   position: relative;
