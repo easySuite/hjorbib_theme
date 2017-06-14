@@ -2,7 +2,6 @@
    ========================================================================== */
 
 
-
 // Wrapper, load and inner
 //==========================================================================
 
@@ -18,13 +17,14 @@ div.rs-carousel-inner {
 
 .rs-carousel-title {
   color: $white;
+
 }
 
 // Items
 
 .rs-carousel .rs-carousel-items {
   padding: 24px 20px;
-  background-color: $color-primary;
+  background: none;
 }
 
 // Item
