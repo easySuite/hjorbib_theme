@@ -560,7 +560,7 @@ div.rs-carousel-inner {
 
 .rs-carousel .rs-carousel-items {
   padding: 24px 20px;
-  background-color: #333;
+  background: none;
 }
 
 .svg .rs-carousel-items .rs-carousel-item:hover:before {
@@ -814,7 +814,7 @@ a:focus {
   -moz-border-radius: 8px;
   -webkit-border-radius: 8px;
   border-radius: 8px;
-/*  display: inline-block; */
+  display: inline-block;
   font-size: 100%;
   padding: 8px 14px;
   position: relative;
